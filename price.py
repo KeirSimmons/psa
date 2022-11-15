@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 
 from collection import Collection
+from dex import Dex
 
 
 class Price:
@@ -19,6 +20,9 @@ class Price:
 
     def check(self):
         self.card = self.collection.get(self.cert)
+        dex = Dex()
+        _card = dex.find_from_dex(self.card["pkmn"])["name"]["english"]
+        print(f"Editing the price for card #{self.cert} ({_card})")
 
         if self.copy_cert is not None:
             self._set_from_other_cert()
@@ -85,7 +89,6 @@ class Price:
             if not overwrite:
                 raise Exception("Ending.")
 
-        print(f"Editing the price for card #{self.cert}")
         self._collect_prices()
         self._save()
 
