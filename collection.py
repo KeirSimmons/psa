@@ -81,7 +81,7 @@ class Collection:
 
     def _flatten_data(self):
         all = {}
-        for year, collection in self._data.items():
+        for year, collection in copy.deepcopy(self._data).items():
             existing_certs = set(all.keys())
             incoming_certs = set(collection.keys())
             overlapping_certs = existing_certs.intersection(incoming_certs)
@@ -89,7 +89,7 @@ class Collection:
                 # Some keys already existed:
                 raise Exception(f"Keys {overlapping_certs} appeared more than once.")
             for cert, card in collection.items():
-                collection[cert] = merge_dictionaries(self.default, card)
+                # collection[cert] = merge_dictionaries(self.default, card)
                 collection[cert]["year"] = year
             all.update(collection)
         self.data = all
@@ -247,7 +247,12 @@ class Collection:
         return card
 
     def update(self, cert, updated_card):
-        self.data[cert] = updated_card
+        year = updated_card["year"]
+        updated_card["year"] = None
+        updated_card = {k: v for k, v in updated_card.items() if v is not None}
+        self._data[year][cert] = updated_card
+        with open("./collection.json", "w") as fh:
+            fh.write(json.dumps(self._data, indent=4))
 
 
 if __name__ == "__main__":
