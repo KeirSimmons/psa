@@ -2,6 +2,7 @@ import argparse
 import json
 import math
 from collections import defaultdict
+from datetime import date
 
 from collection import Collection
 
@@ -41,7 +42,8 @@ class Price:
         print(f"Card successfully updated (#{self.cert}).")
 
     def _set_from_sales_data(self):
-        if self.card["selling"]["price"] > 0:
+        price = self.card["selling"]["price"]
+        if price > 0:
             # price has been set before
             print(f"The price has already been set at {price} JPY.")
             overwrite = (
@@ -157,6 +159,7 @@ class Price:
         )
         self.card["sales_data"] = json.loads(json.dumps(self.sales_data))
         self.card["sales_data"]["avg_price"] = self.avg_price
+        self.card["sales_data"]["last_updated"] = date.today().strftime("%Y-%m-%d")
         if okay:
             print(f"Updating selling price.")
             self.card["selling"]["price"] = self.avg_price

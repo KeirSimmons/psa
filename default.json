@@ -26,6 +26,7 @@
     },
     "sales_data": {
         "avg_price": 0,
+        "last_updated": null,
         "mercari": {
             "selling": [],
             "sold": []
