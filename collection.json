@@ -1,0 +1,3086 @@
+{
+    "1995": {
+        "27574928": {
+            "pkmn": 4,
+            "grade": 6,
+            "set": "TOPSUN_BLUE",
+            "bandai": true,
+            "topsun_nonumber": true,
+            "selling": {
+                "price": 26812,
+                "mid": [
+                    "m17591006338"
+                ]
+            }
+        },
+        "25917074": {
+            "pkmn": 4,
+            "grade": 6,
+            "set": "TOPSUN_BLUE",
+            "bandai": true,
+            "selling": {
+                "price": 9484,
+                "mid": [
+                    "m17591006338"
+                ]
+            }
+        },
+        "27574929": {
+            "pkmn": 3,
+            "grade": 5,
+            "set": "TOPSUN_BLUE",
+            "bandai": true
+        },
+        "25917072": {
+            "pkmn": 25,
+            "grade": 9,
+            "OC": true,
+            "set": "TOPSUN_BLUE",
+            "bandai": true
+        },
+        "25917073": {
+            "pkmn": 9,
+            "grade": 6,
+            "set": "TOPSUN_BLUE",
+            "bandai": true
+        },
+        "25917076": {
+            "pkmn": 9,
+            "grade": 4,
+            "set": "TOPSUN_GREEN",
+            "bandai": true
+        },
+        "25917075": {
+            "pkmn": 6,
+            "grade": 6,
+            "set": "TOPSUN_BLUE",
+            "bandai": true
+        },
+        "25329434": {
+            "pkmn": 133,
+            "grade": 6,
+            "set": "TOPSUN_HOLO",
+            "bandai": true
+        },
+        "25329432": {
+            "pkmn": 135,
+            "grade": 5,
+            "set": "TOPSUN_HOLO",
+            "bandai": true,
+            "selling": {
+                "price": 26170
+            }
+        },
+        "25329431": {
+            "pkmn": 134,
+            "grade": 4,
+            "set": "TOPSUN_HOLO",
+            "bandai": true
+        },
+        "26368253": {
+            "pkmn": 134,
+            "grade": 4,
+            "set": "TOPSUN_HOLO",
+            "bandai": true
+        },
+        "25329430": {
+            "pkmn": 145,
+            "grade": 4,
+            "set": "TOPSUN_HOLO",
+            "bandai": true
+        },
+        "25329433": {
+            "pkmn": 9,
+            "grade": 3,
+            "set": "TOPSUN_HOLO",
+            "bandai": true
+        },
+        "25329435": {
+            "pkmn": 149,
+            "grade": 2,
+            "set": "TOPSUN_HOLO",
+            "bandai": true
+        }
+    },
+    "1996": {
+        "27574979": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "CARDDASS_RED",
+            "selling": {
+                "price": 41426,
+                "mid": "m75682478225"
+            }
+        },
+        "25917062": {
+            "pkmn": 150,
+            "grade": 9,
+            "set": "CARDDASS_GREEN",
+            "selling": {
+                "price": 48600,
+                "mid": "m75682478225"
+            }
+        },
+        "26368216": {
+            "pkmn": 125,
+            "grade": 5,
+            "set": "BASE",
+            "1st": true,
+            "base_no_rarity": true
+        },
+        "25916957": {
+            "pkmn": 38,
+            "grade": 5,
+            "set": "BASE",
+            "1st": true,
+            "base_no_rarity": true
+        },
+        "26368212": {
+            "pkmn": 38,
+            "grade": 7,
+            "set": "BASE",
+            "1st": true,
+            "base_no_rarity": true
+        },
+        "27574952": {
+            "pkmn": 61,
+            "grade": 8,
+            "set": "BASE",
+            "1st": true,
+            "base_no_rarity": true
+        },
+        "26368214": {
+            "pkmn": 61,
+            "grade": 8,
+            "set": "BASE",
+            "1st": true,
+            "base_no_rarity": true
+        },
+        "26368166": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "BASE"
+        },
+        "26835990": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "BASE"
+        },
+        "26835987": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "BASE"
+        },
+        "27574951": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "BASE"
+        },
+        "26368165": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "BASE"
+        },
+        "26835930": {
+            "pkmn": 9,
+            "grade": 9,
+            "OC": true,
+            "set": "BASE"
+        },
+        "27574947": {
+            "pkmn": 9,
+            "grade": 8,
+            "set": "BASE"
+        },
+        "25916997": {
+            "pkmn": 9,
+            "grade": 8,
+            "set": "BASE"
+        },
+        "27574946": {
+            "pkmn": 9,
+            "grade": 5,
+            "set": "BASE"
+        },
+        "26368155": {
+            "pkmn": 3,
+            "grade": 8,
+            "set": "BASE"
+        },
+        "26835923": {
+            "pkmn": 3,
+            "grade": 8,
+            "set": "BASE"
+        },
+        "27574883": {
+            "pkmn": 3,
+            "grade": 8,
+            "set": "BASE"
+        },
+        "26368157": {
+            "pkmn": 3,
+            "grade": 8,
+            "set": "BASE"
+        },
+        "27574885": {
+            "pkmn": 3,
+            "grade": 7,
+            "set": "BASE"
+        },
+        "27574884": {
+            "pkmn": 3,
+            "grade": 6,
+            "set": "BASE"
+        },
+        "27575578": {
+            "pkmn": 6,
+            "grade": 7,
+            "sign": 10,
+            "set": "BASE"
+        },
+        "27575581": {
+            "pkmn": 6,
+            "grade": 7,
+            "sign": 10,
+            "set": "BASE"
+        },
+        "27575579": {
+            "pkmn": 6,
+            "grade": 8,
+            "sign": 9,
+            "set": "BASE"
+        },
+        "27575576": {
+            "pkmn": 6,
+            "grade": 8,
+            "sign": 10,
+            "set": "BASE"
+        },
+        "27575571": {
+            "pkmn": 3,
+            "grade": 8,
+            "sign": 8,
+            "set": "BASE"
+        },
+        "27575570": {
+            "pkmn": 3,
+            "grade": 9,
+            "sign": 8,
+            "set": "BASE"
+        },
+        "26368156": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "BASE",
+            "collection": true
+        },
+        "25916993": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "BASE",
+            "collection": true
+        },
+        "25916998": {
+            "pkmn": 9,
+            "grade": 10,
+            "set": "BASE",
+            "collection": true
+        }
+    },
+    "1997": {
+        "25917068": {
+            "pkmn": 6,
+            "grade": 9,
+            "set": "CARDDASS_NEW",
+            "bandai": true,
+            "selling": {
+                "price": 180495,
+                "mid": "m63824164482"
+            }
+        }
+    },
+    "1998": {
+        "26368228": {
+            "grade": 10,
+            "1st": false,
+            "trainer": true,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ],
+            "selling": {
+                "price": 178000,
+                "mid": "m44869696314"
+            }
+        },
+        "25917048": {
+            "pkmn": 6,
+            "grade": 9,
+            "set": "ROCKET"
+        },
+        "25329440": {
+            "grade": 9,
+            "trainer": true,
+            "set": "STARTER_RED_GREEN",
+            "notes": "Incorrect label - should be set:STARTER_RED_GREEN"
+        },
+        "26835959": {
+            "grade": 9,
+            "trainer": true,
+            "set": "STARTER_RED_GREEN"
+        },
+        "26836025": {
+            "grade": 10,
+            "trainer": true,
+            "set": "STARTER_RED_GREEN"
+        },
+        "25917109": {
+            "grade": 9,
+            "trainer": true,
+            "set": "STARTER_RED_GREEN"
+        },
+        "25917110": {
+            "grade": 10,
+            "trainer": true,
+            "set": "STARTER_RED_GREEN"
+        },
+        "26835958": {
+            "pkmn": 146,
+            "grade": 9,
+            "set": "STARTER_RED_GREEN"
+        },
+        "25917108": {
+            "pkmn": 4,
+            "grade": 10,
+            "set": "STARTER_RED_GREEN"
+        },
+        "25917111": {
+            "pkmn": 144,
+            "grade": 10,
+            "set": "STARTER_RED_GREEN"
+        },
+        "25917112": {
+            "pkmn": 123,
+            "grade": 9,
+            "set": "STARTER_RED_GREEN"
+        },
+        "25917132": {
+            "pkmn": 25,
+            "grade": 10,
+            "set": "VENDING_3"
+        },
+        "27574976": {
+            "trainer": true,
+            "grade": 10,
+            "set": "VENDING_3"
+        },
+        "26835968": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "GAMEBOY",
+            "promo": true
+        },
+        "26836030": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "GAMEBOY",
+            "promo": true
+        },
+        "26835969": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "GAMEBOY",
+            "promo": true
+        },
+        "26836031": {
+            "pkmn": 2,
+            "grade": 10,
+            "set": "GAMEBOY",
+            "promo": true
+        },
+        "26836045": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "CD",
+            "promo": true
+        },
+        "26835976": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "CD",
+            "promo": true
+        },
+        "26836048": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "CD",
+            "promo": true
+        },
+        "26835979": {
+            "pkmn": 9,
+            "grade": 10,
+            "set": "CD",
+            "promo": true
+        },
+        "26836047": {
+            "pkmn": 9,
+            "grade": 10,
+            "set": "CD",
+            "promo": true
+        },
+        "26835978": {
+            "pkmn": 9,
+            "grade": 10,
+            "set": "CD",
+            "promo": true
+        },
+        "26368231": {
+            "grade": 10,
+            "1st": false,
+            "trainer": true,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ]
+        },
+        "26368230": {
+            "grade": 10,
+            "1st": false,
+            "trainer": true,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ]
+        },
+        "26835980": {
+            "grade": 10,
+            "1st": false,
+            "trainer": true,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ]
+        },
+        "25329439": {
+            "grade": 10,
+            "1st": false,
+            "trainer": true,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ]
+        },
+        "27575589": {
+            "pkmn": 146,
+            "grade": 8,
+            "sign": 9,
+            "set": "STARTER_RED_GREEN"
+        }
+    },
+    "1999": {
+        "26835952": {
+            "pkmn": 25,
+            "grade": 9,
+            "set": "BASE",
+            "shadowless": true,
+            "language": "EN",
+            "selling": {
+                "price": 38000,
+                "mid": "m47201897674"
+            }
+        },
+        "25917096": {
+            "pkmn": 76,
+            "grade": 6,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "25917092": {
+            "pkmn": 139,
+            "grade": 6,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "25917094": {
+            "pkmn": 68,
+            "grade": 8,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "25917095": {
+            "pkmn": 68,
+            "grade": 8,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "26835998": {
+            "pkmn": 68,
+            "grade": 9,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "25917088": {
+            "pkmn": 65,
+            "grade": 6,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "25917090": {
+            "pkmn": 65,
+            "grade": 8,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "25917097": {
+            "pkmn": 94,
+            "grade": 9,
+            "set": "MASAKI",
+            "promo": true
+        },
+        "27574975": {
+            "trainer": true,
+            "grade": 9,
+            "contains_pkmn": [
+                131
+            ],
+            "set": "MINI_CD",
+            "promo": true
+        },
+        "26835944": {
+            "pkmn": 25,
+            "grade": 9,
+            "set": "TRAINER_MAG",
+            "promo": true
+        },
+        "25917052": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "SQUIRTLE_DECK",
+            "promo": true
+        },
+        "26835982": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "BULBASAUR_DECK",
+            "promo": true
+        },
+        "26835981": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "BULBASAUR_DECK",
+            "promo": true
+        },
+        "26836050": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "BULBASAUR_DECK",
+            "promo": true
+        },
+        "27575591": {
+            "pkmn": 6,
+            "grade": 6,
+            "sign": 9,
+            "language": "EN",
+            "set": "BASE",
+            "collection": true
+        },
+        "25917029": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "collection": true,
+            "notes": "GRAND PARTY"
+        },
+        "26835962": {
+            "pkmn": 56,
+            "grade": 8,
+            "set": "NATTA_WAKE",
+            "promo": true
+        }
+    },
+    "2000": {
+        "26836012": {
+            "pkmn": 250,
+            "grade": 10,
+            "set": "NEO_3"
+        },
+        "27574973": {
+            "pkmn": 250,
+            "grade": 9,
+            "set": "NEO_3"
+        },
+        "27574974": {
+            "pkmn": 250,
+            "grade": 9,
+            "set": "NEO_3"
+        },
+        "25917047": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "NEO_2",
+            "reverse": true
+        },
+        "26836013": {
+            "pkmn": 186,
+            "grade": 9,
+            "set": "NEO_2"
+        },
+        "25917133": {
+            "trainer": true,
+            "grade": 10,
+            "set": "CHAMPION_ROAD",
+            "promo": true
+        },
+        "25329438": {
+            "trainer": true,
+            "grade": 10,
+            "set": "CD",
+            "promo": true
+        },
+        "26835960": {
+            "pkmn": 124,
+            "grade": 9,
+            "set": "NATTA_WAKE",
+            "promo": true
+        },
+        "26835961": {
+            "pkmn": 191,
+            "grade": 10,
+            "set": "NATTA_WAKE",
+            "contains_pkmn": [
+                21
+            ],
+            "promo": true
+        }
+    },
+    "2001": {
+        "26835957": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true,
+            "selling": {
+                "price": 68780,
+                "mid": "m87405011784"
+            }
+        },
+        "27574898": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "26836022": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "26836023": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "26836024": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "26835956": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "27574897": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "27574899": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "25917027": {
+            "pkmn": 151,
+            "grade": 8,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "26368249": {
+            "pkmn": 151,
+            "grade": 8,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "26835955": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "COROCORO",
+            "shining": true,
+            "promo": true
+        },
+        "26836032": {
+            "pkmn": 3,
+            "grade": 9,
+            "set": "TRAINER_MAG",
+            "promo": true
+        },
+        "26835970": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "TRAINER_MAG",
+            "promo": true
+        },
+        "27574920": {
+            "pkmn": 6,
+            "grade": 8,
+            "set": "VS",
+            "1st": true
+        },
+        "27574921": {
+            "pkmn": 197,
+            "grade": 8,
+            "set": "VS",
+            "1st": true
+        },
+        "27574938": {
+            "pkmn": 94,
+            "grade": 8,
+            "set": "WEB",
+            "1st": false,
+            "notes": "MASAKI"
+        },
+        "27574913": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "WEB",
+            "1st": false
+        },
+        "25917085": {
+            "pkmn": 5,
+            "grade": 10,
+            "set": "WEB",
+            "1st": false,
+            "notes": "DARK"
+        },
+        "25917086": {
+            "pkmn": 5,
+            "grade": 10,
+            "set": "WEB",
+            "1st": false
+        },
+        "25917019": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true
+        },
+        "26836006": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true,
+            "notes": "NON-HOLO"
+        },
+        "26368271": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true,
+            "notes": "NON-HOLO"
+        },
+        "25917010": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true,
+            "notes": "HOLO"
+        },
+        "25917012": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true,
+            "notes": "HOLO"
+        },
+        "25917013": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true,
+            "notes": "HOLO"
+        },
+        "25917014": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true,
+            "notes": "HOLO"
+        },
+        "26368272": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "EXPEDITION",
+            "1st": true,
+            "notes": "HOLO"
+        },
+        "27575590": {
+            "pkmn": 9,
+            "grade": 7,
+            "sign": 10,
+            "1st": true,
+            "set": "WEB"
+        }
+    },
+    "2002": {
+        "25916990": {
+            "pkmn": 381,
+            "grade": 10,
+            "set": "VS",
+            "selling": {
+                "price": 153879,
+                "mid": "m50307276567"
+            },
+            "contains_pkmn": [
+                380
+            ]
+        },
+        "25916986": {
+            "pkmn": 380,
+            "grade": 10,
+            "set": "VS",
+            "selling": {
+                "price": 149829,
+                "mid": "m50307276567"
+            },
+            "contains_pkmn": [
+                381
+            ]
+        },
+        "25916989": {
+            "pkmn": 381,
+            "grade": 9,
+            "set": "VS",
+            "contains_pkmn": [
+                380
+            ]
+        },
+        "25916988": {
+            "pkmn": 380,
+            "grade": 9,
+            "set": "VS",
+            "contains_pkmn": [
+                381
+            ]
+        },
+        "26836014": {
+            "pkmn": 245,
+            "grade": 10,
+            "set": "THE_TOWN_ON_NO_MAP",
+            "1st": true
+        },
+        "26368186": {
+            "pkmn": 152,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368187": {
+            "pkmn": 152,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368190": {
+            "pkmn": 4,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368188": {
+            "pkmn": 4,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26836027": {
+            "pkmn": 4,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368193": {
+            "pkmn": 7,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368194": {
+            "pkmn": 7,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368195": {
+            "pkmn": 7,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368191": {
+            "pkmn": 7,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368192": {
+            "pkmn": 7,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368197": {
+            "pkmn": 25,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368198": {
+            "pkmn": 79,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368199": {
+            "pkmn": 246,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368200": {
+            "pkmn": 246,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368202": {
+            "energy": true,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368203": {
+            "energy": true,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368205": {
+            "energy": true,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368206": {
+            "energy": true,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368207": {
+            "energy": true,
+            "grade": 10,
+            "set": "MCDONALDS"
+        },
+        "26368201": {
+            "energy": true,
+            "grade": 9,
+            "set": "MCDONALDS"
+        },
+        "26368238": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "MCDONALDS",
+            "promo": true
+        },
+        "26836028": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "MCDONALDS",
+            "promo": true
+        },
+        "26835949": {
+            "pkmn": 25,
+            "grade": 6,
+            "set": "MCDONALDS",
+            "promo": true
+        },
+        "26836026": {
+            "pkmn": 212,
+            "grade": 10,
+            "set": "MCDONALDS",
+            "promo": true
+        },
+        "25917100": {
+            "pkmn": 145,
+            "grade": 10,
+            "set": "MCDONALDS",
+            "promo": true
+        },
+        "25917102": {
+            "pkmn": 251,
+            "grade": 10,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "27574930": {
+            "pkmn": 251,
+            "grade": 10,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "25917103": {
+            "pkmn": 244,
+            "grade": 10,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "27574931": {
+            "pkmn": 244,
+            "grade": 10,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "25917104": {
+            "pkmn": 25,
+            "grade": 7,
+            "set": "JR_RALLY",
+            "contains_pkmn": [
+                150
+            ],
+            "promo": true
+        },
+        "27574932": {
+            "pkmn": 25,
+            "grade": 10,
+            "set": "JR_RALLY",
+            "contains_pkmn": [
+                150
+            ],
+            "promo": true
+        },
+        "25917105": {
+            "pkmn": 172,
+            "grade": 5,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "27574933": {
+            "pkmn": 172,
+            "grade": 9,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "25917106": {
+            "pkmn": 150,
+            "grade": 5,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "27574934": {
+            "pkmn": 150,
+            "grade": 10,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "25917107": {
+            "pkmn": 249,
+            "grade": 7,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "27574935": {
+            "pkmn": 249,
+            "grade": 10,
+            "set": "JR_RALLY",
+            "promo": true
+        },
+        "25329441": {
+            "trainer": true,
+            "grade": 9,
+            "contains_pkmn": [
+                52
+            ],
+            "promo": true
+        },
+        "25329442": {
+            "trainer": true,
+            "grade": 6,
+            "contains_pkmn": [
+                25
+            ],
+            "promo": true
+        },
+        "26835943": {
+            "trainer": true,
+            "grade": 6,
+            "contains_pkmn": [
+                25
+            ],
+            "promo": true
+        },
+        "26835964": {
+            "pkmn": 251,
+            "grade": 10,
+            "set": "TRAINERS",
+            "promo": true
+        },
+        "27574904": {
+            "trainer": true,
+            "grade": 5,
+            "set": "FAN_CLUB",
+            "promo": true
+        },
+        "26835995": {
+            "trainer": true,
+            "grade": 10,
+            "set": "FAN_CLUB",
+            "promo": true
+        },
+        "27574915": {
+            "pkmn": 3,
+            "grade": 9,
+            "set": "LOTTERY",
+            "promo": true
+        },
+        "25917101": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_SUMMER",
+            "notes": "WARP ENERGY",
+            "promo": true
+        },
+        "26835965": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_SUMMER",
+            "notes": "BOOST ENERGY",
+            "promo": true
+        },
+        "26368151": {
+            "pkmn": 136,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368152": {
+            "pkmn": 134,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368153": {
+            "pkmn": 135,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917113": {
+            "pkmn": 79,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917114": {
+            "pkmn": 80,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917115": {
+            "pkmn": 199,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917116": {
+            "pkmn": 153,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368142": {
+            "pkmn": 153,
+            "grade": 0,
+            "promo": true,
+            "set": "TRAINER_MAG",
+            "notes": "MIN. GRADE ERROR"
+        },
+        "26368143": {
+            "pkmn": 153,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917117": {
+            "pkmn": 156,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368145": {
+            "pkmn": 156,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917118": {
+            "pkmn": 159,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368146": {
+            "pkmn": 159,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368147": {
+            "pkmn": 159,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368148": {
+            "pkmn": 2,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368149": {
+            "pkmn": 5,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368150": {
+            "pkmn": 8,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917119": {
+            "pkmn": 146,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368139": {
+            "pkmn": 146,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917120": {
+            "pkmn": 144,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368140": {
+            "pkmn": 144,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917121": {
+            "pkmn": 145,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368141": {
+            "pkmn": 145,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917122": {
+            "pkmn": 147,
+            "grade": 9,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368133": {
+            "pkmn": 147,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368134": {
+            "pkmn": 147,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917123": {
+            "pkmn": 148,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368135": {
+            "pkmn": 148,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368136": {
+            "pkmn": 148,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "25917124": {
+            "pkmn": 149,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368137": {
+            "pkmn": 149,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368138": {
+            "pkmn": 149,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368127": {
+            "pkmn": 146,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368128": {
+            "pkmn": 247,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368129": {
+            "pkmn": 248,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368130": {
+            "pkmn": 293,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368131": {
+            "pkmn": 294,
+            "grade": 10,
+            "promo": true,
+            "set": "TRAINER_MAG"
+        },
+        "26368132": {
+            "pkmn": 295,
+            "grade": 10,
+            "promo": true,
+            "EX": true,
+            "set": "TRAINER_MAG"
+        }
+    },
+    "2003": {
+        "26368171": {
+            "pkmn": 251,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "26368168": {
+            "pkmn": 378,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "26368169": {
+            "pkmn": 377,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "26368170": {
+            "pkmn": 379,
+            "grade": 9,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "27575583": {
+            "pkmn": 383,
+            "grade": 10,
+            "sign": 9,
+            "promo": true,
+            "set": "FAIR_CAMPAIGN_711"
+        },
+        "27575584": {
+            "pkmn": 383,
+            "grade": 8,
+            "sign": 10,
+            "promo": true,
+            "set": "FAIR_CAMPAIGN_711",
+            "selling": {
+                "price": 43157,
+                "mid": [
+                    "m74245609893"
+                ]
+            }
+        },
+        "25916305": {
+            "pkmn": 3,
+            "grade": 10,
+            "promo": true,
+            "set": "LOTTERY",
+            "collection": true
+        },
+        "25916303": {
+            "pkmn": 9,
+            "grade": 10,
+            "promo": true,
+            "set": "LOTTERY",
+            "collection": true
+        },
+        "25916301": {
+            "pkmn": 6,
+            "grade": 10,
+            "promo": true,
+            "set": "LOTTERY",
+            "collection": true
+        },
+        "27574909": {
+            "pkmn": 154,
+            "grade": 10,
+            "promo": true,
+            "set": "LOTTERY",
+            "collection": true
+        },
+        "27574910": {
+            "pkmn": 160,
+            "grade": 10,
+            "promo": true,
+            "set": "LOTTERY",
+            "collection": true
+        },
+        "25916307": {
+            "pkmn": 157,
+            "grade": 10,
+            "promo": true,
+            "set": "LOTTERY",
+            "collection": true
+        }
+    },
+    "2004": {
+        "27574937": {
+            "pkmn": 386,
+            "grade": 9,
+            "set": "VS",
+            "1st": false,
+            "promo": true,
+            "selling": {
+                "price": 89950,
+                "mid": "m56358360090"
+            }
+        },
+        "26368223": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_SUMMER",
+            "promo": true,
+            "notes": "SCRAMBLE ENERGY"
+        },
+        "26368224": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_SUMMER",
+            "promo": true,
+            "notes": "HEALING ENERGY"
+        },
+        "25917041": {
+            "pkmn": 4,
+            "grade": 10,
+            "set": "MEIJI",
+            "promo": true
+        },
+        "25917042": {
+            "pkmn": 5,
+            "grade": 10,
+            "set": "MEIJI",
+            "promo": true
+        },
+        "25917043": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "MEIJI",
+            "promo": true
+        },
+        "26368221": {
+            "pkmn": 3,
+            "grade": 10,
+            "set": "COROCORO",
+            "promo": true
+        },
+        "26368220": {
+            "pkmn": 9,
+            "grade": 9,
+            "set": "COROCORO",
+            "promo": true
+        },
+        "27574960": {
+            "pkmn": 145,
+            "grade": 9,
+            "set": "ROCKET_GANG_STRIKES_BACK",
+            "1st": true,
+            "EX": true
+        },
+        "26368172": {
+            "pkmn": 146,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "26368173": {
+            "pkmn": 146,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "26368174": {
+            "pkmn": 144,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "26368175": {
+            "pkmn": 145,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "25917125": {
+            "pkmn": 251,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "25917126": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "26368176": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "26368177": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "26368178": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "26368179": {
+            "pkmn": 151,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "25917127": {
+            "pkmn": 385,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "26368180": {
+            "energy": true,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true,
+            "notes": "BOOST ENERGY"
+        }
+    },
+    "2005": {
+        "26836029": {
+            "pkmn": 379,
+            "grade": 10,
+            "set": "LUCARIO_MYSTERY_OF_MEW",
+            "promo": true
+        },
+        "26368183": {
+            "pkmn": 382,
+            "grade": 10,
+            "set": "LE_STARTER_KIT",
+            "EX": true,
+            "promo": true
+        },
+        "26368184": {
+            "pkmn": 383,
+            "grade": 10,
+            "set": "LE_STARTER_KIT",
+            "EX": true,
+            "promo": true
+        },
+        "26368225": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_AUGUST",
+            "promo": true,
+            "notes": "HOLON ENERGY GL"
+        },
+        "26368226": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_AUGUST",
+            "promo": true,
+            "notes": "HOLON ENERGY FF"
+        },
+        "26368227": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_AUGUST",
+            "promo": true,
+            "notes": "HOLON ENERGY WP"
+        },
+        "25917128": {
+            "pkmn": 382,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "26368181": {
+            "pkmn": 382,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "26368182": {
+            "pkmn": 383,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "25917129": {
+            "pkmn": 384,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "promo": true
+        },
+        "27574970": {
+            "pkmn": 196,
+            "grade": 9,
+            "EX": true,
+            "set": "GOLDEN_SKY_SILVERY_OCEAN"
+        }
+    },
+    "2006": {
+        "26368260": {
+            "energy": true,
+            "grade": 10,
+            "set": "BATTLE_ROAD_SUMMER",
+            "promo": true,
+            "notes": "RAINBOW ENERGY"
+        },
+        "26368264": {
+            "trainer": true,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 6,
+            "set": "GYM_CHALLENGE",
+            "promo": true,
+            "notes": "SILVER MEDAL, STAMP"
+        },
+        "26368265": {
+            "trainer": true,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 6,
+            "set": "GYM_CHALLENGE",
+            "promo": true,
+            "notes": "SILVER MEDAL, STAMP"
+        },
+        "26835966": {
+            "pkmn": 249,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        },
+        "26868185": {
+            "pkmn": 250,
+            "grade": 10,
+            "set": "PLAYERS_CLUB",
+            "EX": true,
+            "promo": true
+        }
+    },
+    "2007": {
+        "25917135": {
+            "trainer": true,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 10,
+            "set": "GYM_CHALLENGE",
+            "promo": true,
+            "notes": "1st PLACE"
+        },
+        "25917136": {
+            "trainer": true,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 10,
+            "set": "GYM_CHALLENGE",
+            "promo": true,
+            "notes": "3rd PLACE"
+        },
+        "25917137": {
+            "trainer": true,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 10,
+            "set": "GYM_CHALLENGE",
+            "promo": true,
+            "notes": "SILVER"
+        },
+        "25917134": {
+            "trainer": true,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 10,
+            "set": "GYM_CHALLENGE",
+            "promo": true,
+            "notes": "SILVER, STAMP"
+        },
+        "25917138": {
+            "trainer": true,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 10,
+            "set": "GYM_CHALLENGE",
+            "promo": true,
+            "notes": "GOLD"
+        },
+        "26098706": {
+            "trainer": true,
+            "contains_pkmn": [
+                25,
+                420,
+                385
+            ],
+            "grade": 10,
+            "set": "BATTLE_ROAD_SUMMER",
+            "promo": true
+        },
+        "26368218": {
+            "trainer": true,
+            "contains_pkmn": [
+                107,
+                129
+            ],
+            "grade": 6,
+            "set": "BATTLE_ROAD_SUMMER",
+            "promo": true
+        },
+        "26368219": {
+            "trainer": true,
+            "contains_pkmn": [
+                107,
+                129
+            ],
+            "grade": 9,
+            "set": "BATTLE_ROAD_SUMMER",
+            "promo": true
+        },
+        "27759357": {
+            "trainer": true,
+            "contains_pkmn": [
+                107,
+                129
+            ],
+            "grade": 10,
+            "set": "BATTLE_ROAD_SUMMER",
+            "promo": true
+        }
+    },
+    "2008": {
+        "25485897": {
+            "pkmn": 65,
+            "grade": 10,
+            "set": "BONDS_TIME_GYM_CHALLENGE",
+            "promo": true
+        },
+        "25917051": {
+            "pkmn": 5,
+            "grade": 10,
+            "1st": true,
+            "set": "STORMFRONT"
+        },
+        "25917038": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": false,
+            "set": "STORMFRONT"
+        },
+        "26836009": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "set": "STORMFRONT"
+        }
+    },
+    "2009": {
+        "25917050": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "LV.X": true,
+            "set": "CHARIZARD_HALF_DECK"
+        }
+    },
+    "2010": {
+        "27574906": {
+            "pkmn": 383,
+            "grade": 10,
+            "set": "LEGENDARY_PRESENT_CAMP",
+            "promo": true
+        },
+        "26368233": {
+            "pkmn": 484,
+            "grade": 10,
+            "set": "LEGENDARY_PRESENT_CAMP",
+            "promo": true
+        },
+        "26368234": {
+            "pkmn": 386,
+            "grade": 10,
+            "set": "LEGENDARY_PRESENT_CAMP",
+            "promo": true
+        },
+        "26836020": {
+            "pkmn": [
+                243,
+                244
+            ],
+            "grade": 10,
+            "1st": true,
+            "FA": true,
+            "LEGEND": true,
+            "set": "REVIVING_LEGENDS",
+            "notes": "TOP"
+        },
+        "26836021": {
+            "pkmn": [
+                243,
+                244
+            ],
+            "grade": 10,
+            "1st": true,
+            "FA": true,
+            "LEGEND": true,
+            "set": "REVIVING_LEGENDS",
+            "notes": "BOTTOM"
+        }
+    },
+    "2012": {
+        "27574969": {
+            "pkmn": 151,
+            "grade": 9,
+            "set": "BW5",
+            "1st": true,
+            "EX": true,
+            "selling": {
+                "price": 30394,
+                "mid": "m13897171146"
+            }
+        }
+    },
+    "2013": {
+        "23697279": {
+            "pkmn": 25,
+            "grade": 10,
+            "set": "BWP",
+            "1st": false,
+            "promo": true,
+            "FA": true,
+            "selling": {
+                "price": 399500,
+                "mid": "m31376424067"
+            }
+        }
+    },
+    "2014": {
+        "26836001": {
+            "pkmn": 25,
+            "grade": 10,
+            "contains_pkmn": [
+                700,
+                94,
+                448,
+                674
+            ],
+            "promo": true,
+            "FA": true,
+            "set": "BATTLE_FESTA"
+        },
+        "25916976": {
+            "pkmn": 25,
+            "grade": 10,
+            "set": "PIKACHU_LIBRE",
+            "promo": true
+        },
+        "26835951": {
+            "pkmn": 25,
+            "grade": 10,
+            "set": "UNIQLO",
+            "promo": true
+        },
+        "26835950": {
+            "pkmn": 25,
+            "grade": 10,
+            "set": "UNIQLO",
+            "promo": true
+        },
+        "25916975": {
+            "pkmn": 25,
+            "grade": 10,
+            "set": "SUMMER_THANKSGIVING",
+            "promo": true
+        },
+        "25917049": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "CHARIZARD_EX_MEGA_BATTLE",
+            "EX": true
+        },
+        "25917044": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "WILD_BLAZE",
+            "1st": true,
+            "EX": true
+        },
+        "25917034": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "WILD_BLAZE",
+            "1st": true,
+            "EX": true,
+            "FA": true
+        },
+        "25917035": {
+            "pkmn": 6,
+            "grade": 9,
+            "set": "WILD_BLAZE",
+            "1st": true,
+            "EX": true,
+            "FA": true
+        },
+        "26368266": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "WILD_BLAZE",
+            "1st": true,
+            "EX": true,
+            "FA": true
+        },
+        "26368267": {
+            "pkmn": 6,
+            "grade": 18,
+            "set": "WILD_BLAZE",
+            "1st": true,
+            "EX": true,
+            "FA": true
+        },
+        "25917039": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "WILD_BLAZE",
+            "1st": true,
+            "EX": true,
+            "M": true
+        },
+        "26836015": {
+            "pkmn": 6,
+            "grade": 10,
+            "set": "WILD_BLAZE",
+            "1st": true,
+            "EX": true,
+            "M": true
+        }
+    },
+    "2015": {
+        "27574961": {
+            "pkmn": 383,
+            "grade": 9,
+            "set": "XY7",
+            "1st": true,
+            "FA": true,
+            "EX": true,
+            "selling": {
+                "price": 16196,
+                "mid": "m13897171146"
+            }
+        },
+        "27574964": {
+            "pkmn": 382,
+            "grade": 9,
+            "set": "XY7",
+            "1st": true,
+            "FA": true,
+            "EX": true,
+            "selling": {
+                "price": 17008,
+                "mid": "m13897171146"
+            }
+        },
+        "27574968": {
+            "pkmn": 150,
+            "grade": 10,
+            "set": "XY7",
+            "1st": true,
+            "FA": true,
+            "EX": true,
+            "selling": {
+                "price": 70682,
+                "mid": "m13897171146"
+            },
+            "contains_pkmn": [
+                462,
+                651
+            ]
+        },
+        "27574963": {
+            "pkmn": 384,
+            "grade": 9,
+            "set": "XY7",
+            "1st": true,
+            "FA": true,
+            "M": true,
+            "EX": true,
+            "selling": {
+                "price": 57916,
+                "mid": "m13897171146"
+            }
+        },
+        "27574962": {
+            "pkmn": 384,
+            "grade": 10,
+            "set": "XY7",
+            "1st": true,
+            "FA": true,
+            "EX": true,
+            "selling": {
+                "price": 80988,
+                "mid": "m13897171146"
+            },
+            "contains_pkmn": [
+                490,
+                658
+            ]
+        },
+        "27574966": {
+            "trainer": true,
+            "grade": 8,
+            "set": "XY6",
+            "1st": true,
+            "FA": true,
+            "selling": {
+                "price": 24255,
+                "mid": "m13897171146"
+            }
+        },
+        "25917046": {
+            "pkmn": 6,
+            "grade": 10,
+            "EX": true,
+            "set": "BUILD_POWER_STYLE"
+        },
+        "26836010": {
+            "pkmn": 130,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 10,
+            "promo": true,
+            "set": "POKEMON_CENTER"
+        },
+        "27574882": {
+            "pkmn": 130,
+            "contains_pkmn": [
+                25
+            ],
+            "grade": 10,
+            "promo": true,
+            "set": "POKEMON_CENTER"
+        },
+        "26368257": {
+            "energy": true,
+            "grade": 10,
+            "promo": true,
+            "set": "GOLDEN_PRESENT_CAMPAIGN",
+            "notes": "GRASS ENERGY"
+        },
+        "26368258": {
+            "energy": true,
+            "grade": 10,
+            "promo": true,
+            "set": "GOLDEN_PRESENT_CAMPAIGN",
+            "notes": "GRASS ENERGY"
+        },
+        "26368259": {
+            "energy": true,
+            "grade": 10,
+            "promo": true,
+            "set": "GOLDEN_PRESENT_CAMPAIGN",
+            "notes": "GRASS ENERGY"
+        },
+        "26368255": {
+            "energy": true,
+            "grade": 10,
+            "promo": true,
+            "set": "GOLDEN_PRESENT_CAMPAIGN",
+            "notes": "DARK ENERGY"
+        },
+        "26368256": {
+            "energy": true,
+            "grade": 10,
+            "promo": true,
+            "set": "GOLDEN_PRESENT_CAMPAIGN",
+            "notes": "DARK ENERGY"
+        },
+        "26836002": {
+            "pkmn": 25,
+            "grade": 10,
+            "contains_pkmn": [
+                150,
+                571
+            ],
+            "promo": true,
+            "FA": true,
+            "set": "BATTLE_FESTA"
+        },
+        "26836003": {
+            "pkmn": 25,
+            "grade": 10,
+            "contains_pkmn": [
+                150,
+                571
+            ],
+            "promo": true,
+            "FA": true,
+            "set": "BATTLE_FESTA"
+        },
+        "27574939": {
+            "pkmn": 25,
+            "grade": 10,
+            "contains_pkmn": [
+                150,
+                571
+            ],
+            "promo": true,
+            "FA": true,
+            "set": "BATTLE_FESTA"
+        },
+        "25917032": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "FA": true,
+            "set": "B_SHOCK_R_FLASH"
+        }
+    },
+    "2016": {
+        "26836004": {
+            "pkmn": 25,
+            "grade": 10,
+            "contains_pkmn": [
+                1,
+                4,
+                7
+            ],
+            "promo": true,
+            "FA": true,
+            "set": "BATTLE_FESTA"
+        },
+        "25917130": {
+            "pkmn": 54,
+            "grade": 8,
+            "promo": true,
+            "set": "POKEMON_CENTER"
+        },
+        "26368126": {
+            "pkmn": 6,
+            "grade": 10,
+            "promo": true,
+            "FA": true,
+            "EX": true,
+            "set": "POKEMON_GAME_ART_COLLECTION"
+        },
+        "25917045": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "set": "POKEKYUN"
+        },
+        "25917033": {
+            "pkmn": 385,
+            "grade": 10,
+            "FA": true,
+            "promo": true,
+            "set": "PREMIUM_CHAMPION_PACK"
+        },
+        "26368262": {
+            "pkmn": 25,
+            "contains_pkmn": [
+                6,
+                702
+            ],
+            "grade": 10,
+            "promo": true,
+            "set": "POKEMON_CENTER_MEGA_BATTLE"
+        },
+        "26835948": {
+            "pkmn": 25,
+            "contains_pkmn": [
+                6,
+                702
+            ],
+            "grade": 10,
+            "promo": true,
+            "set": "POKEMON_CENTER_MEGA_BATTLE"
+        },
+        "27574917": {
+            "pkmn": 25,
+            "contains_pkmn": [
+                475,
+                384,
+                181,
+                303
+            ],
+            "grade": 10,
+            "promo": true,
+            "set": "POKEMON_CENTER_MEGA_BATTLE"
+        },
+        "26368115": {
+            "pkmn": 6,
+            "grade": 8,
+            "promo": true,
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368114": {
+            "pkmn": 6,
+            "grade": 10,
+            "promo": true,
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368117": {
+            "pkmn": 6,
+            "grade": 10,
+            "promo": true,
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368118": {
+            "pkmn": 6,
+            "grade": 10,
+            "promo": true,
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368119": {
+            "pkmn": 25,
+            "grade": 10,
+            "promo": true,
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368120": {
+            "pkmn": 25,
+            "grade": 10,
+            "promo": true,
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368121": {
+            "pkmn": 25,
+            "grade": 10,
+            "promo": true,
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368122": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ],
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368123": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ],
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368124": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "contains_pkmn": [
+                61,
+                70
+            ],
+            "set": "LETS_TRADE_PLEASE_20TH"
+        },
+        "26368113": {
+            "pkmn": 25,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_SPECIAL"
+        },
+        "26836037": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "BROCK"
+        },
+        "26836038": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "MISTY"
+        },
+        "26836039": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "LT SURGE"
+        },
+        "26836040": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "ERIKA"
+        },
+        "26836041": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "KOGA"
+        },
+        "26836042": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "JASMINE"
+        },
+        "26836043": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "BLAINE"
+        },
+        "26836044": {
+            "trainer": true,
+            "grade": 10,
+            "promo": true,
+            "set": "ANNIVERSARY_20_BATTLE_FESTA",
+            "notes": "GIOVANNI"
+        },
+        "27575563": {
+            "pkmn": 6,
+            "grade": 9,
+            "sign": 6,
+            "1st": true,
+            "set": "CP6"
+        },
+        "27575564": {
+            "pkmn": 6,
+            "grade": 9,
+            "sign": 6,
+            "1st": true,
+            "set": "CP6"
+        },
+        "27575565": {
+            "pkmn": 6,
+            "grade": 9,
+            "sign": 7,
+            "1st": true,
+            "set": "CP6"
+        },
+        "27575566": {
+            "pkmn": 6,
+            "grade": 9,
+            "sign": 6,
+            "1st": true,
+            "set": "CP6"
+        },
+        "27575567": {
+            "pkmn": 6,
+            "grade": 9,
+            "sign": 6,
+            "1st": true,
+            "set": "CP6"
+        },
+        "27575568": {
+            "pkmn": 6,
+            "grade": 9,
+            "sign": 6,
+            "1st": true,
+            "set": "CP6"
+        },
+        "27575569": {
+            "pkmn": 6,
+            "grade": 9,
+            "sign": 7,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368020": {
+            "pkmn": 3,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368021": {
+            "pkmn": 3,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368022": {
+            "pkmn": 3,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368023": {
+            "pkmn": 3,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368028": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368034": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368035": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368036": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368037": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368038": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368039": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368040": {
+            "pkmn": 38,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368041": {
+            "pkmn": 38,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368042": {
+            "pkmn": 38,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368043": {
+            "pkmn": 38,
+            "grade": 10,
+            "1st": true,
+            "BREAK": true,
+            "set": "CP6"
+        },
+        "26368044": {
+            "pkmn": 9,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368045": {
+            "pkmn": 9,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368046": {
+            "pkmn": 62,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368047": {
+            "pkmn": 62,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368048": {
+            "pkmn": 62,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368049": {
+            "pkmn": 121,
+            "grade": 10,
+            "1st": true,
+            "BREAK": true,
+            "set": "CP6"
+        },
+        "26368050": {
+            "pkmn": 130,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368051": {
+            "pkmn": 130,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368052": {
+            "pkmn": 130,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368053": {
+            "pkmn": 26,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368054": {
+            "pkmn": 26,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368055": {
+            "pkmn": 26,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368056": {
+            "pkmn": 82,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368057": {
+            "pkmn": 82,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368058": {
+            "pkmn": 82,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368059": {
+            "pkmn": 145,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368060": {
+            "pkmn": 145,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368061": {
+            "pkmn": 145,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368062": {
+            "pkmn": 34,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368063": {
+            "pkmn": 34,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368064": {
+            "pkmn": 34,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368066": {
+            "pkmn": 150,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368067": {
+            "pkmn": 150,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368068": {
+            "pkmn": 150,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368069": {
+            "pkmn": 150,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368072": {
+            "pkmn": 151,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368073": {
+            "pkmn": 151,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368074": {
+            "pkmn": 68,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368075": {
+            "pkmn": 68,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368076": {
+            "pkmn": 68,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368077": {
+            "pkmn": 68,
+            "grade": 10,
+            "1st": true,
+            "BREAK": true,
+            "set": "CP6"
+        },
+        "26368078": {
+            "pkmn": 107,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368079": {
+            "pkmn": 107,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368080": {
+            "pkmn": 107,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368081": {
+            "pkmn": 35,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368082": {
+            "pkmn": 35,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368083": {
+            "pkmn": 35,
+            "grade": 9,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368084": {
+            "pkmn": 18,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368085": {
+            "pkmn": 18,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368086": {
+            "pkmn": 18,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368087": {
+            "pkmn": 18,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368088": {
+            "pkmn": 113,
+            "grade": 8,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368089": {
+            "pkmn": 113,
+            "grade": 8,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368090": {
+            "pkmn": 113,
+            "grade": 8,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368091": {
+            "pkmn": 149,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "set": "CP6"
+        },
+        "26368092": {
+            "pkmn": 3,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "set": "CP6"
+        },
+        "26368093": {
+            "pkmn": 3,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368094": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "set": "CP6"
+        },
+        "26368095": {
+            "pkmn": 6,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368096": {
+            "pkmn": 9,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "set": "CP6"
+        },
+        "26368097": {
+            "pkmn": 9,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368098": {
+            "pkmn": 25,
+            "grade": 10,
+            "contains_pkmn": [
+                135
+            ],
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "set": "CP6"
+        },
+        "26368099": {
+            "pkmn": 150,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "set": "CP6"
+        },
+        "26368100": {
+            "pkmn": 18,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "set": "CP6"
+        },
+        "26368101": {
+            "pkmn": 18,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "M": true,
+            "set": "CP6"
+        },
+        "26368102": {
+            "pkmn": 149,
+            "grade": 10,
+            "1st": true,
+            "EX": true,
+            "FA": true,
+            "set": "CP6"
+        },
+        "26836017": {
+            "trainer": true,
+            "grade": 10,
+            "1st": true,
+            "FA": true,
+            "set": "CP6",
+            "notes": "MISTYS DETERMINATION"
+        },
+        "26368104": {
+            "trainer": true,
+            "grade": 10,
+            "1st": true,
+            "FA": true,
+            "set": "CP6",
+            "notes": "MISTYS DETERMINATION"
+        },
+        "26368105": {
+            "trainer": true,
+            "grade": 10,
+            "1st": true,
+            "FA": true,
+            "set": "CP6",
+            "notes": "BROCKS GRIT"
+        },
+        "26368106": {
+            "pkmn": 103,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368107": {
+            "pkmn": 103,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368108": {
+            "pkmn": 103,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368109": {
+            "pkmn": 84,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6"
+        },
+        "26368111": {
+            "trainer": true,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6",
+            "notes": "TEAM ROCKET!"
+        },
+        "26368112": {
+            "trainer": true,
+            "grade": 10,
+            "1st": true,
+            "set": "CP6",
+            "notes": "TEAM ROCKET!"
+        }
+    },
+    "2017": {
+        "27574940": {
+            "pkmn": 25,
+            "contains_pkmn": [
+                37
+            ],
+            "promo": true,
+            "grade": 10,
+            "set": "SM_PIKACHU_SPECIAL_BOX",
+            "notes": "ICE VULPIX"
+        },
+        "27574941": {
+            "pkmn": 25,
+            "contains_pkmn": [
+                37
+            ],
+            "promo": true,
+            "grade": 10,
+            "set": "SM_PIKACHU_SPECIAL_BOX",
+            "notes": "NORMAL VULPIX"
+        },
+        "27574887": {
+            "pkmn": 25,
+            "grade": 10,
+            "promo": true,
+            "set": "PIKACHUS_EASTER"
+        },
+        "27574888": {
+            "pkmn": 25,
+            "grade": 10,
+            "promo": true,
+            "set": "PIKACHUS_EASTER"
+        },
+        "27574889": {
+            "pkmn": 25,
+            "grade": 9,
+            "promo": true,
+            "set": "PIKACHUS_EASTER"
+        },
+        "27574894": {
+            "pkmn": 25,
+            "grade": 9,
+            "promo": true,
+            "set": "PIKACHUS_EASTER"
+        },
+        "27574895": {
+            "pkmn": 25,
+            "grade": 9,
+            "promo": true,
+            "set": "PIKACHUS_EASTER"
+        }
+    }
+}
