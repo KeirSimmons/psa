@@ -187,7 +187,7 @@ class Price:
         self.sales_data = prices_dict
 
     def _get_scale_factor(self, website, status, grade):
-        multipliers = {"base": 1.1, "grade": 0.7, "signed": 10}
+        multipliers = {"base": 1.1, "grade": 0.7, "pseudo_10": 11, "signed": 10}
 
         weightings = {
             "same_grade": 1.2,
@@ -209,6 +209,11 @@ class Price:
 
         if card_sign:
             multiplier *= multipliers["signed"]
+
+        if card_grade == 10:
+            card_grade = multipliers["pseudo_10"]
+        if grade == 10:
+            grade = multipliers["pseudo_10"]
 
         multiplier *= math.pow(multipliers["grade"], grade - card_grade)
 
