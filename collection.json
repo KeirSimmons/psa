@@ -58,8 +58,50 @@
         },
         "25329434": {
             "pkmn": 133,
+            "contains_pkmn": [],
             "grade": 6,
             "set": "TOPSUN_HOLO",
+            "selling": {
+                "sold": null,
+                "price": 52562,
+                "mid": []
+            },
+            "sales_data": {
+                "ebay": {
+                    "selling": [
+                        {
+                            "price": 24572,
+                            "adjusted_price": 38613,
+                            "grade": 5
+                        },
+                        {
+                            "price": 15164,
+                            "adjusted_price": 23829,
+                            "grade": 5
+                        },
+                        {
+                            "price": 1094650,
+                            "adjusted_price": 289108,
+                            "grade": 10
+                        },
+                        {
+                            "price": 56542,
+                            "adjusted_price": 30476,
+                            "grade": 8
+                        }
+                    ],
+                    "sold": [
+                        {
+                            "price": 7442,
+                            "adjusted_price": 16706,
+                            "grade": 4
+                        }
+                    ]
+                },
+                "avg_price": 52562,
+                "last_updated": "2022-11-16"
+            },
+            "language": "JP",
             "bandai": true
         },
         "25329432": {
