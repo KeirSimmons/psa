@@ -190,11 +190,11 @@ class Price:
         multipliers = {"base": 1.1, "grade": 0.7, "signed": 10}
 
         weightings = {
-            "same_grade": 1.5,
+            "same_grade": 1.2,
             "ebay_selling": 1,
-            "ebay_sold": 1.5,
-            "mercari_selling": 2,
-            "mercari_sold": 3,
+            "ebay_sold": 1.2,
+            "mercari_selling": 1.25,
+            "mercari_sold": 1.5,
         }
 
         website_status = f"{website}_{status}"
