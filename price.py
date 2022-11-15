@@ -5,6 +5,7 @@ from collections import defaultdict
 from datetime import date
 
 import numpy as np
+import pandas as pd
 
 from collection import Collection
 
@@ -122,13 +123,16 @@ class Price:
         if not prices:
             raise Exception("No prices were added.")
 
-        scaled_prices = [x[0] * x[1] for x in pricing_data]
+        original_price = np.asarray([x[0] for x in pricing_data])
+        original_scale = np.asarray([x[1] for x in pricing_data])
+        scaled_prices = original_price * original_scale
+
         avg_scaled_price = np.mean(scaled_prices)
         std_scaled_price = np.std(scaled_prices)
 
         # Weights we apply for distance from mean
         std_weights = 1 / np.clip(
-            abs((np.asarray(scaled_prices) - avg_scaled_price) / std_scaled_price),
+            abs((scaled_prices - avg_scaled_price) / std_scaled_price),
             1,
             1000,
         )
@@ -143,6 +147,41 @@ class Price:
         scaled_avg_price = int(
             sum(scaled_prices * weights_to_use) / sum(weights_to_use)
         )
+
+        as_jpy = lambda vals: [f"{int(val)} JPY" for val in vals]
+        as_flt = lambda vals: [f"{val:.02f}" for val in vals]
+
+        df_data = np.asarray(
+            [
+                as_jpy(original_price),
+                as_flt(original_scale),
+                as_jpy(scaled_prices),
+                as_flt(original_weights),
+                as_flt(std_weights),
+                as_flt(weights_to_use),
+            ]
+        ).T
+
+        df = pd.DataFrame(
+            df_data,
+            columns=[
+                "Orig. Price",
+                "Orig. Scale",
+                "Scaled Price",
+                "Orig. Weights",
+                "STD Weights",
+                "Final weights",
+            ],
+        )
+
+        print(df)
+        price_without_weighting = int(sum(scaled_prices) / len(scaled_prices))
+        price_without_std_weighting = int(
+            sum(scaled_prices * original_weights) / sum(original_weights)
+        )
+        print(f"Price without any weighting: {price_without_weighting} JPY")
+        print(f"Price without std weighting: {price_without_std_weighting} JPY")
+        print(f"Price with all weighting: {scaled_avg_price} JPY (chosen)")
 
         self.avg_price = scaled_avg_price
         self.sales_data = prices_dict
