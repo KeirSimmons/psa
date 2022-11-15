@@ -1,0 +1,43 @@
+{
+    "pkmn": null,
+    "contains_pkmn": [],
+    "grade": null,
+    "sign": null,
+    "OC": null,
+    "set": null,
+    "1st": null,
+    "base_no_rarity": null,
+    "shadowless": null,
+    "shining": null,
+    "FA": null,
+    "EX": null,
+    "M": null,
+    "LV.X": null,
+    "LEGEND": null,
+    "BREAK": null,
+    "reverse": null,
+    "trainer": null,
+    "energy": null,
+    "promo": null,
+    "selling": {
+        "sold": null,
+        "price": 0,
+        "mid": []
+    },
+    "sales_data": {
+        "average_price": 0,
+        "mercari": {
+            "selling": [],
+            "sold": []
+        },
+        "ebay": {
+            "selling": [],
+            "sold": []
+        }
+    },
+    "collection": null,
+    "language": "JP",
+    "bandai": null,
+    "topsun_nonumber": null,
+    "notes": null
+}
