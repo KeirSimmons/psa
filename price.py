@@ -123,7 +123,6 @@ class Price:
             raise Exception("No prices were added.")
 
         scaled_prices = [x[0] * x[1] for x in pricing_data]
-        total_scaled_price = sum(scaled_prices)
         avg_scaled_price = np.mean(scaled_prices)
         std_scaled_price = np.std(scaled_prices)
 
