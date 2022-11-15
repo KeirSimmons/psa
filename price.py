@@ -43,11 +43,12 @@ class Price:
             for status in sales_data[website].keys():
                 sales = sales_data[website][status]
                 for sale in sales:
+                    grade = sale["grade"]
                     price = sale["price"]
                     scale_factor, weight = self._get_scale_factor(
-                        website, status, sale["grade"]
+                        website, status, grade
                     )
-                    pricing_data.append((price, scale_factor, weight))
+                    pricing_data.append((price, scale_factor, weight, grade))
 
         self.pricing_data = pricing_data
         self.prices_dict = {"medium": sales_data}
@@ -137,7 +138,7 @@ class Price:
                     adjusted_price = int(price * scale_factor)
                     prices.append(adjusted_price)
                     weights.append(weight)
-                    pricing_data.append((price, scale_factor, weight))
+                    pricing_data.append((price, scale_factor, weight, grade))
                     prices_dict["medium"][website][status].append(
                         {
                             "price": price,
@@ -160,6 +161,7 @@ class Price:
         pricing_data = self.pricing_data
         original_price = np.asarray([x[0] for x in pricing_data])
         original_scale = np.asarray([x[1] for x in pricing_data])
+        grades = np.asarray([x[3] for x in pricing_data])
         scaled_prices = original_price * original_scale
 
         avg_scaled_price = np.mean(scaled_prices)
@@ -188,9 +190,11 @@ class Price:
 
         as_jpy = lambda vals: [f"{int(val)} JPY" for val in vals]
         as_flt = lambda vals: [f"{val:.02f}" for val in vals]
+        as_int = lambda vals: [int(val) for val in vals]
 
         df_data = np.asarray(
             [
+                as_int(grades),
                 as_jpy(original_price),
                 as_flt(original_scale),
                 as_jpy(scaled_prices),
@@ -200,16 +204,21 @@ class Price:
             ]
         ).T
 
-        df = pd.DataFrame(
-            df_data,
-            columns=[
-                "Orig. Price",
-                "Orig. Scale",
-                "Scaled Price",
-                "Orig. Weights",
-                "STD Weights",
-                "Final weights",
-            ],
+        df = (
+            pd.DataFrame(
+                df_data,
+                columns=[
+                    "Grade",
+                    "Orig. Price",
+                    "Orig. Scale",
+                    "Scaled Price",
+                    "Orig. Weights",
+                    "STD Weights",
+                    "Final weights",
+                ],
+            )
+            .astype({"Grade": int})
+            .sort_values(by=["Grade"])
         )
 
         print(df)
