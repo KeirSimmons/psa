@@ -25,7 +25,7 @@
         "mid": []
     },
     "sales_data": {
-        "average_price": 0,
+        "avg_price": 0,
         "mercari": {
             "selling": [],
             "sold": []
