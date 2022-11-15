@@ -22,7 +22,8 @@ class Price:
         self.card = self.collection.get(self.cert)
         dex = Dex()
         _card = dex.find_from_dex(self.card["pkmn"])["name"]["english"]
-        print(f"Editing the price for card #{self.cert} ({_card})")
+        grade = self.card["grade"]
+        print(f"Editing the price for card #{self.cert} (PSA {grade} {_card})")
 
         if self.copy_cert is not None:
             self._set_from_other_cert()
