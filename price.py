@@ -11,18 +11,44 @@ from collection import Collection
 
 
 class Price:
-    def __init__(self, cert, set_avg):
+    def __init__(self, cert, copy_cert, set_avg):
         self.cert = cert
+        self.copy_cert = copy_cert
         self.set_avg = set_avg
         self.collection = Collection()
 
     def check(self):
         self.card = self.collection.get(self.cert)
-        price = self.card["selling"]["price"]
-        if self.set_avg:
+
+        if self.copy_cert is not None:
+            self._set_from_other_cert()
+        elif self.set_avg:
             self._set_price_to_avg()
         else:
             self._set_from_sales_data()
+
+    def _set_from_other_cert(self):
+        print(f"Copying pricing data from #{self.copy_cert} to #{self.cert}")
+
+        other_card = self.collection.get(self.copy_cert)
+        sales_data = other_card["sales_data"]["medium"]
+
+        pricing_data = []
+        for website in sales_data.keys():
+            for status in sales_data[website].keys():
+                sales = sales_data[website][status]
+                for sale in sales:
+                    price = sale["price"]
+                    scale_factor, weight = self._get_scale_factor(
+                        website, status, sale["grade"]
+                    )
+                    pricing_data.append((price, scale_factor, weight))
+
+        self.pricing_data = pricing_data
+        self.prices_dict = {"medium": sales_data}
+
+        self._calculate()
+        self._save()
 
     def _set_price_to_avg(self):
         avg_price = self.card["sales_data"]["avg_price"]
@@ -68,7 +94,7 @@ class Price:
         prices = []
         weights = []
         pricing_data = []
-        prices_dict = defaultdict(lambda: defaultdict(list))
+        prices_dict = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
         continuing = True
         for website in ["ebay", "mercari"]:
             if not continuing:
@@ -107,11 +133,10 @@ class Price:
                     adjusted_price = int(price * scale_factor)
                     prices.append(adjusted_price)
                     weights.append(weight)
-                    pricing_data.append((price, scale_factor, weight, website, status))
-                    prices_dict[website][status].append(
+                    pricing_data.append((price, scale_factor, weight))
+                    prices_dict["medium"][website][status].append(
                         {
                             "price": price,
-                            "adjusted_price": adjusted_price,
                             "grade": grade,
                         }
                     )
@@ -123,6 +148,12 @@ class Price:
         if not prices:
             raise Exception("No prices were added.")
 
+        self.pricing_data = pricing_data
+        self.prices_dict = prices_dict
+        self._calculate()
+
+    def _calculate(self):
+        pricing_data = self.pricing_data
         original_price = np.asarray([x[0] for x in pricing_data])
         original_scale = np.asarray([x[1] for x in pricing_data])
         scaled_prices = original_price * original_scale
@@ -131,11 +162,14 @@ class Price:
         std_scaled_price = np.std(scaled_prices)
 
         # Weights we apply for distance from mean
-        std_weights = 1 / np.clip(
-            abs((scaled_prices - avg_scaled_price) / std_scaled_price),
-            1,
-            1000,
-        )
+        if std_scaled_price < 1e-5:
+            std_weights = np.ones((len(scaled_prices),))
+        else:
+            std_weights = 1 / np.clip(
+                abs((scaled_prices - avg_scaled_price) / std_scaled_price),
+                1,
+                1000,
+            )
 
         # Weights provided by source
         original_weights = np.asarray([x[2] for x in pricing_data])
@@ -184,7 +218,7 @@ class Price:
         print(f"Price with all weighting: {scaled_avg_price} JPY (chosen)")
 
         self.avg_price = scaled_avg_price
-        self.sales_data = prices_dict
+        self.sales_data = self.prices_dict
 
     def _get_scale_factor(self, website, status, grade):
         multipliers = {"base": 1.1, "grade": 0.7, "pseudo_10": 11, "signed": 10}
@@ -238,8 +272,9 @@ class Price:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("cert")
+    parser.add_argument("--cert")
+    parser.add_argument("--copy_cert", nargs="?", default=None)
     parser.add_argument("--set_avg", default=False, action="store_true")
     args = parser.parse_args()
-    price = Price(args.cert, args.set_avg)
+    price = Price(args.cert, args.copy_cert, args.set_avg)
     price.check()

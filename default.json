@@ -27,13 +27,15 @@
     "sales_data": {
         "avg_price": 0,
         "last_updated": null,
-        "mercari": {
-            "selling": [],
-            "sold": []
-        },
-        "ebay": {
-            "selling": [],
-            "sold": []
+        "medium": {
+            "mercari": {
+                "selling": [],
+                "sold": []
+            },
+            "ebay": {
+                "selling": [],
+                "sold": []
+            }
         }
     },
     "collection": null,
