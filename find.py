@@ -11,15 +11,15 @@ def find(cert):
     print("\nPossible equivalent cards:")
     print(collection.find_dupes(cert))
 
-    same, pkmn = collection.find_same_attr(27574940, "pkmn")
+    same, pkmn = collection.find_same_attr(cert, "pkmn")
     print(f"\nCards with the same Pokemon ({pkmn}):")
     print(same)
 
-    same = collection.find_same_bg_pkmn(27574940)
+    same = collection.find_same_bg_pkmn(cert)
     print(f"\nCards with the same Pokemon in the background ({pkmn}):")
     print(same)
 
-    same, _set = collection.find_same_attr(27574940, "set")
+    same, _set = collection.find_same_attr(cert, "set")
     print(f"\nCards in the same set ({_set}):")
     print(same)
 

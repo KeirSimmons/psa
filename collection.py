@@ -237,10 +237,10 @@ class Collection:
     def get(self, cert, replace=False):
         card = self.data[cert]
         if replace:
-            card["pkmn"] = self.dex.find_from_dex(int(card["pkmn"]))["name"][
+            card["pkmn_name"] = self.dex.find_from_dex(int(card["pkmn"]))["name"][
                 "english"
             ].upper()
-            card["contains_pkmn"] = [
+            card["contains_pkmn_names"] = [
                 self.dex.find_from_dex(int(_pkmn))["name"]["english"].upper()
                 for _pkmn in card["contains_pkmn"]
             ]
