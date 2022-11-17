@@ -9,6 +9,7 @@ import pandas as pd
 
 from collection import Collection
 from dex import Dex
+from stats import Stats
 
 
 class Price:
@@ -18,6 +19,7 @@ class Price:
         self.copy_cert = copy_cert
         self.collection = Collection()
         self.dex = Dex()
+        self.stats = Stats()
 
     def _set_card(self, cert):
         self.card = self.collection.get(self.cert)
@@ -285,6 +287,12 @@ class Price:
             self.card["selling"]["price"] = self.avg_price
         self.collection.update(self.cert, self.card)
         print(f"Card successfully updated (#{self.cert}).")
+
+        self._calculate_stats()
+
+    def _calculate_stats(self):
+        print("\nCalculating stats...")
+        self.stats.calculate()
 
 
 if __name__ == "__main__":
