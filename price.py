@@ -12,30 +12,50 @@ from dex import Dex
 
 
 class Price:
-    def __init__(self, cert, copy_cert, set_avg):
+    def __init__(self, cert, recalculate, copy_cert):
         self.cert = cert
+        self.recalculate = recalculate
         self.copy_cert = copy_cert
-        self.set_avg = set_avg
         self.collection = Collection()
+        self.dex = Dex()
 
-    def check(self):
+    def _set_card(self, cert):
         self.card = self.collection.get(self.cert)
-        dex = Dex()
-        _card = dex.find_from_dex(self.card["pkmn"])["name"]["english"]
+        pkmn = self.dex.find_from_dex(self.card["pkmn"])["name"]["english"]
         grade = self.card["grade"]
-        print(f"Editing the price for card #{self.cert} (PSA {grade} {_card})")
+        print(f"Adjusting the price for card #{cert} (PSA {grade} {pkmn})")
 
-        if self.copy_cert is not None:
-            self._set_from_other_cert()
-        elif self.set_avg:
-            self._set_price_to_avg()
+    def act(self):
+
+        if self.recalculate:
+            # We either recalculate all or just for a single cert
+            if self.cert is not None:
+                self._recalculate_cert(self.cert)
+            else:
+                self._recalculate_all_certs()
+
         else:
-            self._set_from_sales_data()
+            # Cert is now required
+            if self.cert is None:
+                raise Exception("Cert must be passed.")
+            self._set_card(self.cert)
 
-    def _set_from_other_cert(self):
-        print(f"Copying pricing data from #{self.copy_cert} to #{self.cert}")
+            if self.copy_cert is not None:
+                self._set_from_other_cert(self.copy_sert)
+            else:
+                self._set_from_sales_data()
 
-        other_card = self.collection.get(self.copy_cert)
+    def _recalculate_cert(self, cert):
+        self._set_card(cert)
+        self._set_from_other_cert(cert)
+
+    def _recalculate_all_certs(self):
+        raise NotImplementedError()
+
+    def _set_from_other_cert(self, copy_cert):
+        print(f"Copying pricing data from #{copy_cert} to #{self.cert}")
+
+        other_card = self.collection.get(copy_cert)
         sales_data = other_card["sales_data"]["medium"]
 
         pricing_data = []
@@ -54,27 +74,12 @@ class Price:
         self.prices_dict = {"medium": sales_data}
 
         self._calculate()
+
+        original_price = self.card["selling"]["price"]
+        if original_price > 0:
+            print(f"Original price was {original_price} JPY.")
+
         self._save()
-
-    def _set_price_to_avg(self):
-        avg_price = self.card["sales_data"]["avg_price"]
-        if avg_price > 0:
-            overwrite = (
-                input(
-                    f"Are you sure you want to set the price to {avg_price} JPY? [Y/n]\n > "
-                ).lower()
-                == "y"
-            )
-            if overwrite:
-                self.card["selling"]["price"] = avg_price
-            else:
-                raise Exception("Ending.")
-        else:
-            raise Exception(f"Card #{self.cert} does not have any pricing data.")
-
-        print(f"Editing the price for card #{self.cert}")
-        self.collection.update(self.cert, self.card)
-        print(f"Card successfully updated (#{self.cert}).")
 
     def _set_from_sales_data(self):
         price = self.card["selling"]["price"]
@@ -285,9 +290,9 @@ class Price:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cert")
+    parser.add_argument("--cert", default=None)
+    parser.add_argument("--recalculate", default=False, action="store_true")
     parser.add_argument("--copy_cert", nargs="?", default=None)
-    parser.add_argument("--set_avg", default=False, action="store_true")
     args = parser.parse_args()
-    price = Price(args.cert, args.copy_cert, args.set_avg)
-    price.check()
+    price = Price(args.cert, args.recalculate, args.copy_cert)
+    price.act()
