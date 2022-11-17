@@ -272,16 +272,15 @@ class Price:
         return multiplier, weighting
 
     def _save(self):
-        okay = (
-            input(
-                f"\n\nWe have calculated a price of {self.avg_price} JPY - is this okay to set?\n[Y/n]\n > "
-            ).lower()
-            == "y"
-        )
+        okay = input(
+            f"\n\nWe have calculated a price of {self.avg_price} JPY - is this okay to set?\n[Y/n] ('q' to quit and save nothing)\n > "
+        ).lower()
+        if okay == "q":
+            raise Exception("Ending, no sales data was saved.")
         self.card["sales_data"] = json.loads(json.dumps(self.sales_data))
         self.card["sales_data"]["avg_price"] = self.avg_price
         self.card["sales_data"]["last_updated"] = date.today().strftime("%Y-%m-%d")
-        if okay:
+        if okay == "y":
             print(f"Updating selling price.")
             self.card["selling"]["price"] = self.avg_price
         self.collection.update(self.cert, self.card)
