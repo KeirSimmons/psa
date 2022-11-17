@@ -12,6 +12,10 @@ from dex import Dex
 from stats import Stats
 
 
+class CardNoSalesDataException(Exception):
+    pass
+
+
 class Price:
     def __init__(self, cert, recalculate, copy_cert):
         self.cert = cert
@@ -22,7 +26,10 @@ class Price:
         self.stats = Stats()
 
     def _set_card(self, cert):
-        self.card = self.collection.get(self.cert)
+        self.cert = cert
+        self.card = self.collection.get(cert)
+
+    def _card_title(self, cert):
         pkmn = self.dex.find_from_dex(self.card["pkmn"])["name"]["english"]
         grade = self.card["grade"]
         print(f"Adjusting the price for card #{cert} (PSA {grade} {pkmn})")
@@ -41,6 +48,7 @@ class Price:
             if self.cert is None:
                 raise Exception("Cert must be passed.")
             self._set_card(self.cert)
+            self._card_title(self.cert)
 
             if self.copy_cert is not None:
                 self._set_from_other_cert(self.copy_sert)
@@ -49,14 +57,22 @@ class Price:
 
     def _recalculate_cert(self, cert):
         self._set_card(cert)
+
+        if self.card["sales_data"]["avg_price"] == 0:
+            raise CardNoSalesDataException(
+                f"Card #{cert} doesn't have any sales data so cannot have its price recalculated."
+            )
+
         self._set_from_other_cert(cert)
 
     def _recalculate_all_certs(self):
-        raise NotImplementedError()
+        for cert, _ in self.collection.get_next_card():
+            try:
+                self._recalculate_cert(cert)
+            except CardNoSalesDataException:
+                continue
 
     def _set_from_other_cert(self, copy_cert):
-        print(f"Copying pricing data from #{copy_cert} to #{self.cert}")
-
         other_card = self.collection.get(copy_cert)
         sales_data = other_card["sales_data"]["medium"]
 
@@ -76,11 +92,6 @@ class Price:
         self.prices_dict = {"medium": sales_data}
 
         self._calculate()
-
-        original_price = self.card["selling"]["price"]
-        if original_price > 0:
-            print(f"Original price was {original_price} JPY.")
-
         self._save()
 
     def _set_from_sales_data(self):
@@ -94,7 +105,7 @@ class Price:
                 ).lower()
                 == "y"
             )
-            print(overwrite)
+
             if not overwrite:
                 raise Exception("Ending.")
 
@@ -195,6 +206,13 @@ class Price:
             sum(scaled_prices * weights_to_use) / sum(weights_to_use)
         )
 
+        previous_price = self.card["selling"]["price"]
+        if abs(scaled_avg_price - previous_price) <= 1e-5:
+            self.price_changed = False
+            return None
+        else:
+            self.price_changed = True
+
         as_jpy = lambda vals: [f"{int(val)} JPY" for val in vals]
         as_flt = lambda vals: [f"{val:.02f}" for val in vals]
         as_int = lambda vals: [int(val) for val in vals]
@@ -228,14 +246,20 @@ class Price:
             .sort_values(by=["Grade"])
         )
 
+        self._card_title(self.cert)
+
+        print("Sales data:\n")
+
         print(df)
         price_without_weighting = int(sum(scaled_prices) / len(scaled_prices))
         price_without_std_weighting = int(
             sum(scaled_prices * original_weights) / sum(original_weights)
         )
-        print(f"Price without any weighting: {price_without_weighting} JPY")
+        print(f"\nPrice without any weighting: {price_without_weighting} JPY")
         print(f"Price without std weighting: {price_without_std_weighting} JPY")
         print(f"Price with all weighting: {scaled_avg_price} JPY (chosen)")
+        if previous_price > 0:
+            print(f"Original price was {previous_price} JPY.")
 
         self.avg_price = scaled_avg_price
         self.sales_data = self.prices_dict
@@ -274,6 +298,11 @@ class Price:
         return multiplier, weighting
 
     def _save(self):
+
+        if not self.price_changed:
+            print(f"Card #{self.cert}'s price did not change.")
+            return None
+
         okay = input(
             f"\n\nWe have calculated a price of {self.avg_price} JPY - is this okay to set?\n[Y/n] ('q' to quit and save nothing)\n > "
         ).lower()

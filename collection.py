@@ -254,6 +254,10 @@ class Collection:
         with open("./collection.json", "w") as fh:
             fh.write(json.dumps(self._data, indent=4))
 
+    def get_next_card(self):
+        for cert, card in self.data.items():
+            yield (cert, card)
+
 
 if __name__ == "__main__":
     collection = Collection()
