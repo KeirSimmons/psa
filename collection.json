@@ -2,28 +2,74 @@
     "1995": {
         "27574928": {
             "pkmn": 4,
+            "contains_pkmn": [],
             "grade": 6,
             "set": "TOPSUN_BLUE",
-            "bandai": true,
-            "topsun_nonumber": true,
             "selling": {
-                "price": 26812,
+                "sold": null,
+                "price": 19251,
                 "mid": [
                     "m17591006338"
                 ]
-            }
+            },
+            "sales_data": {
+                "medium": {
+                    "ebay": {
+                        "sold": [
+                            {
+                                "price": 14688,
+                                "grade": 5
+                            },
+                            {
+                                "price": 20029,
+                                "grade": 7
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 19251,
+                "last_updated": "2023-04-12"
+            },
+            "language": "JP",
+            "bandai": true,
+            "topsun_nonumber": true
         },
         "25917074": {
             "pkmn": 4,
+            "contains_pkmn": [],
             "grade": 6,
             "set": "TOPSUN_BLUE",
-            "bandai": true,
             "selling": {
-                "price": 9484,
+                "sold": null,
+                "price": 12741,
                 "mid": [
                     "m17591006338"
                 ]
-            }
+            },
+            "sales_data": {
+                "medium": {
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 13700,
+                                "grade": 8
+                            },
+                            {
+                                "price": 33382,
+                                "grade": 9
+                            },
+                            {
+                                "price": 49072,
+                                "grade": 9
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 12741,
+                "last_updated": "2023-04-12"
+            },
+            "language": "JP",
+            "bandai": true
         },
         "27574929": {
             "pkmn": 3,
@@ -1464,14 +1510,171 @@
     "2001": {
         "26835957": {
             "pkmn": 151,
+            "contains_pkmn": [],
             "grade": 9,
             "set": "COROCORO",
             "shining": true,
             "promo": true,
             "selling": {
-                "price": 68780,
+                "sold": null,
+                "price": 59700,
                 "mid": "m87405011784"
-            }
+            },
+            "sales_data": {
+                "medium": {
+                    "mercari": {
+                        "selling": [
+                            {
+                                "price": 29999,
+                                "grade": 8
+                            },
+                            {
+                                "price": 29700,
+                                "grade": 5
+                            },
+                            {
+                                "price": 45000,
+                                "grade": 8
+                            },
+                            {
+                                "price": 65340,
+                                "grade": 9
+                            },
+                            {
+                                "price": 36500,
+                                "grade": 8
+                            },
+                            {
+                                "price": 70000,
+                                "grade": 8
+                            },
+                            {
+                                "price": 59800,
+                                "grade": 9
+                            },
+                            {
+                                "price": 32222,
+                                "grade": 8
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 29999,
+                                "grade": 8
+                            },
+                            {
+                                "price": 49999,
+                                "grade": 9
+                            },
+                            {
+                                "price": 25999,
+                                "grade": 8
+                            },
+                            {
+                                "price": 43999,
+                                "grade": 9
+                            },
+                            {
+                                "price": 22999,
+                                "grade": 8
+                            },
+                            {
+                                "price": 55000,
+                                "grade": 9
+                            },
+                            {
+                                "price": 25999,
+                                "grade": 8
+                            }
+                        ]
+                    },
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 66096,
+                                "grade": 9
+                            },
+                            {
+                                "price": 86660,
+                                "grade": 9
+                            },
+                            {
+                                "price": 83010,
+                                "grade": 9
+                            },
+                            {
+                                "price": 78861,
+                                "grade": 9
+                            },
+                            {
+                                "price": 79917,
+                                "grade": 9
+                            },
+                            {
+                                "price": 83003,
+                                "grade": 9
+                            },
+                            {
+                                "price": 83010,
+                                "grade": 9
+                            },
+                            {
+                                "price": 87428,
+                                "grade": 9
+                            },
+                            {
+                                "price": 87428,
+                                "grade": 9
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 66408,
+                                "grade": 9
+                            },
+                            {
+                                "price": 78188,
+                                "grade": 9
+                            },
+                            {
+                                "price": 63425,
+                                "grade": 9
+                            },
+                            {
+                                "price": 66763,
+                                "grade": 9
+                            },
+                            {
+                                "price": 78860,
+                                "grade": 9
+                            },
+                            {
+                                "price": 66096,
+                                "grade": 9
+                            },
+                            {
+                                "price": 61423,
+                                "grade": 9
+                            },
+                            {
+                                "price": 80143,
+                                "grade": 9
+                            },
+                            {
+                                "price": 53310,
+                                "grade": 9
+                            },
+                            {
+                                "price": 63972,
+                                "grade": 9
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 71785,
+                "last_updated": "2023-04-12"
+            },
+            "language": "JP"
         },
         "27574898": {
             "pkmn": 151,
