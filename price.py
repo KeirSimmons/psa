@@ -30,7 +30,10 @@ class Price:
         self.card = self.collection.get(cert)
 
     def _card_title(self, cert):
-        pkmn = self.dex.find_from_dex(self.card["pkmn"])["name"]["english"]
+        try:
+            pkmn = self.dex.find_from_dex(self.card["pkmn"])["name"]["english"]
+        except TypeError:
+            pkmn = "(unknwn card)"
         grade = self.card["grade"]
         print(f"Adjusting the price for card #{cert} (PSA {grade} {pkmn})")
 
@@ -94,8 +97,34 @@ class Price:
         self._calculate()
         self._save()
 
+    def _get_min_selling_price(self, ebay=False, mercari=False):
+        assert ((not ebay) or (not mercari) and (mercari or ebay)), "You must set either ebay or mercari to True"
+        medium = "ebay" if ebay else mercari
+        try:
+            sales_data = self.card["sales_data"]["medium"][medium]["selling"]
+            min_price = min([card['price'] for card in sales_data])
+            return min_price
+        except KeyError:
+            return None
+        except ValueError:
+            return None
+
+
     def _set_from_sales_data(self):
         price = self.card["selling"]["price"]
+
+        # Get individual selling data
+        ebay_min = self._get_min_selling_price(ebay=True)
+        mercari_min = self._get_min_selling_price(mercari=True)
+        if ebay_min is not None:
+            print(f"Cheapest eBay price: {ebay_min} JPY")
+        else:
+            print("No selling data for eBay")
+        if mercari_min is not None:
+            print(f"Cheapest Mercari price: {mercari_min} JPY")
+        else:
+            print("No selling data for Mercari")
+
         if price > 0:
             # price has been set before
             print(f"The price has already been set at {price} JPY.")
