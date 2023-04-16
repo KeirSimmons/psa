@@ -76,5 +76,6 @@ class Sets(AutoName):
     REVIVING_LEGENDS = auto()
     XY6 = auto()
     XY7 = auto()
+    XY9 = auto()
     CP6 = auto()
     POKEKYUN = auto()
