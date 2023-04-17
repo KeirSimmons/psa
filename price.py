@@ -238,7 +238,6 @@ class Price:
         previous_price = self.card["selling"]["price"]
         if abs(scaled_avg_price - previous_price) <= 1e-5:
             self.price_changed = False
-            return None
         else:
             self.price_changed = True
 
