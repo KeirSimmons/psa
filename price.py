@@ -54,7 +54,7 @@ class Price:
             self._card_title(self.cert)
 
             if self.copy_cert is not None:
-                self._set_from_other_cert(self.copy_sert)
+                self._set_from_other_cert(self.copy_cert)
             else:
                 self._set_from_sales_data()
 
