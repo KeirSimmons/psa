@@ -89,7 +89,7 @@ class Price:
                     scale_factor, weight = self._get_scale_factor(
                         website, status, grade
                     )
-                    pricing_data.append((price, scale_factor, weight, grade))
+                    pricing_data.append((price, scale_factor, weight, grade, website, status))
 
         self.pricing_data = pricing_data
         self.prices_dict = {"medium": sales_data}
@@ -185,7 +185,7 @@ class Price:
                     adjusted_price = int(price * scale_factor)
                     prices.append(adjusted_price)
                     weights.append(weight)
-                    pricing_data.append((price, scale_factor, weight, grade))
+                    pricing_data.append((price, scale_factor, weight, grade, website, status))
                     prices_dict["medium"][website][status].append(
                         {
                             "price": price,
@@ -208,6 +208,8 @@ class Price:
         pricing_data = self.pricing_data
         original_price = np.asarray([x[0] for x in pricing_data])
         original_scale = np.asarray([x[1] for x in pricing_data])
+        website = np.asarray([x[4] for x in pricing_data])
+        status = np.asarray([x[5] for x in pricing_data])
         grades = np.asarray([x[3] for x in pricing_data])
         scaled_prices = original_price * original_scale
 
@@ -244,6 +246,7 @@ class Price:
         as_jpy = lambda vals: [f"{int(val)} JPY" for val in vals]
         as_flt = lambda vals: [f"{val:.02f}" for val in vals]
         as_int = lambda vals: [int(val) for val in vals]
+        is_sold = lambda vals: [val == "sold" for val in vals]
 
         df_data = np.asarray(
             [
@@ -254,6 +257,8 @@ class Price:
                 as_flt(original_weights),
                 as_flt(std_weights),
                 as_flt(weights_to_use),
+                website,
+                is_sold(status)
             ]
         ).T
 
@@ -268,6 +273,8 @@ class Price:
                     "Orig. Weights",
                     "STD Weights",
                     "Final weights",
+                    "Website",
+                    "Sold?"
                 ],
             )
             .astype({"Grade": int})
