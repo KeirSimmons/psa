@@ -97,7 +97,7 @@ class SetPrice:
         discount_pct = 100 - (price['discounted'] / price['original'] * 100)
         print(f"This set with {no_of_cards} cards will be priced at {price['discounted']} JPY, a {discount} JPY discount ({discount_pct:.02f}% off) from the original price of {price['original']} JPY.")
 
-        if input("Do you want to log this set? [Y/n] ") == "Y":
+        if input("Do you want to log this set? [Y/n] ").lower() == "y":
             certs = self.certs
             set_id = self._get_next_autoincrement_id()
             self.data['next_autoincrement_id'] = str(int(set_id) + 1)
@@ -113,6 +113,8 @@ class SetPrice:
                     self.data['certs'][cert] = [set_id]
 
             self._save_data()
+        else:
+            print("Not saved.")
 
     def _calculate_set_price(self, certs):
         prices = []
