@@ -13154,27 +13154,639 @@
         },
         "27574888": {
             "pkmn": 25,
+            "contains_pkmn": [],
             "grade": 10,
+            "set": "PIKACHUS_EASTER",
             "promo": true,
-            "set": "PIKACHUS_EASTER"
+            "selling": {
+                "sold": null,
+                "price": 71464,
+                "mid": []
+            },
+            "sales_data": {
+                "medium": {
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 25945,
+                                "grade": 8
+                            },
+                            {
+                                "price": 29964,
+                                "grade": 9
+                            },
+                            {
+                                "price": 66778,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 8
+                            },
+                            {
+                                "price": 66978,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 9
+                            },
+                            {
+                                "price": 75687,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66424,
+                                "grade": 10
+                            },
+                            {
+                                "price": 51397,
+                                "grade": 9
+                            },
+                            {
+                                "price": 71772,
+                                "grade": 10
+                            },
+                            {
+                                "price": 114987,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66076,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 66309,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28130,
+                                "grade": 9
+                            },
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28131,
+                                "grade": 9
+                            },
+                            {
+                                "price": 27997,
+                                "grade": 9
+                            },
+                            {
+                                "price": 18486,
+                                "grade": 7
+                            },
+                            {
+                                "price": 60042,
+                                "grade": 10
+                            },
+                            {
+                                "price": 60204,
+                                "grade": 10
+                            },
+                            {
+                                "price": 63261,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28064,
+                                "grade": 9
+                            },
+                            {
+                                "price": 60280,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 56932,
+                                "grade": 10
+                            }
+                        ]
+                    },
+                    "mercari": {
+                        "selling": [
+                            {
+                                "price": 66666,
+                                "grade": 10
+                            },
+                            {
+                                "price": 69800,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 64999,
+                                "grade": 10
+                            },
+                            {
+                                "price": 22944,
+                                "grade": 9
+                            },
+                            {
+                                "price": 25000,
+                                "grade": 9
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 71464,
+                "last_updated": "2023-04-20"
+            },
+            "language": "JP"
         },
         "27574889": {
             "pkmn": 25,
+            "contains_pkmn": [],
             "grade": 9,
+            "set": "PIKACHUS_EASTER",
             "promo": true,
-            "set": "PIKACHUS_EASTER"
+            "selling": {
+                "sold": null,
+                "price": 34873,
+                "mid": []
+            },
+            "sales_data": {
+                "medium": {
+                    "mercari": {
+                        "selling": [
+                            {
+                                "price": 66666,
+                                "grade": 10
+                            },
+                            {
+                                "price": 69800,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 64999,
+                                "grade": 10
+                            },
+                            {
+                                "price": 22944,
+                                "grade": 9
+                            },
+                            {
+                                "price": 25000,
+                                "grade": 9
+                            }
+                        ]
+                    },
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 25945,
+                                "grade": 8
+                            },
+                            {
+                                "price": 29964,
+                                "grade": 9
+                            },
+                            {
+                                "price": 66778,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 8
+                            },
+                            {
+                                "price": 66978,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 9
+                            },
+                            {
+                                "price": 75687,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66424,
+                                "grade": 10
+                            },
+                            {
+                                "price": 51397,
+                                "grade": 9
+                            },
+                            {
+                                "price": 71772,
+                                "grade": 10
+                            },
+                            {
+                                "price": 114987,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66076,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 66309,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28130,
+                                "grade": 9
+                            },
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28131,
+                                "grade": 9
+                            },
+                            {
+                                "price": 27997,
+                                "grade": 9
+                            },
+                            {
+                                "price": 18486,
+                                "grade": 7
+                            },
+                            {
+                                "price": 60042,
+                                "grade": 10
+                            },
+                            {
+                                "price": 60204,
+                                "grade": 10
+                            },
+                            {
+                                "price": 63261,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28064,
+                                "grade": 9
+                            },
+                            {
+                                "price": 60280,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 56932,
+                                "grade": 10
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 34873,
+                "last_updated": "2023-04-20"
+            },
+            "language": "JP"
         },
         "27574894": {
             "pkmn": 25,
+            "contains_pkmn": [],
             "grade": 9,
+            "set": "PIKACHUS_EASTER",
             "promo": true,
-            "set": "PIKACHUS_EASTER"
+            "selling": {
+                "sold": null,
+                "price": 34873,
+                "mid": []
+            },
+            "sales_data": {
+                "medium": {
+                    "mercari": {
+                        "selling": [
+                            {
+                                "price": 66666,
+                                "grade": 10
+                            },
+                            {
+                                "price": 69800,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 64999,
+                                "grade": 10
+                            },
+                            {
+                                "price": 22944,
+                                "grade": 9
+                            },
+                            {
+                                "price": 25000,
+                                "grade": 9
+                            }
+                        ]
+                    },
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 25945,
+                                "grade": 8
+                            },
+                            {
+                                "price": 29964,
+                                "grade": 9
+                            },
+                            {
+                                "price": 66778,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 8
+                            },
+                            {
+                                "price": 66978,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 9
+                            },
+                            {
+                                "price": 75687,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66424,
+                                "grade": 10
+                            },
+                            {
+                                "price": 51397,
+                                "grade": 9
+                            },
+                            {
+                                "price": 71772,
+                                "grade": 10
+                            },
+                            {
+                                "price": 114987,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66076,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 66309,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28130,
+                                "grade": 9
+                            },
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28131,
+                                "grade": 9
+                            },
+                            {
+                                "price": 27997,
+                                "grade": 9
+                            },
+                            {
+                                "price": 18486,
+                                "grade": 7
+                            },
+                            {
+                                "price": 60042,
+                                "grade": 10
+                            },
+                            {
+                                "price": 60204,
+                                "grade": 10
+                            },
+                            {
+                                "price": 63261,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28064,
+                                "grade": 9
+                            },
+                            {
+                                "price": 60280,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 56932,
+                                "grade": 10
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 34873,
+                "last_updated": "2023-04-20"
+            },
+            "language": "JP"
         },
         "27574895": {
             "pkmn": 25,
+            "contains_pkmn": [],
             "grade": 9,
+            "set": "PIKACHUS_EASTER",
             "promo": true,
-            "set": "PIKACHUS_EASTER"
+            "selling": {
+                "sold": null,
+                "price": 34873,
+                "mid": []
+            },
+            "sales_data": {
+                "medium": {
+                    "mercari": {
+                        "selling": [
+                            {
+                                "price": 66666,
+                                "grade": 10
+                            },
+                            {
+                                "price": 69800,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 64999,
+                                "grade": 10
+                            },
+                            {
+                                "price": 22944,
+                                "grade": 9
+                            },
+                            {
+                                "price": 25000,
+                                "grade": 9
+                            }
+                        ]
+                    },
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 25945,
+                                "grade": 8
+                            },
+                            {
+                                "price": 29964,
+                                "grade": 9
+                            },
+                            {
+                                "price": 66778,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 8
+                            },
+                            {
+                                "price": 66978,
+                                "grade": 10
+                            },
+                            {
+                                "price": 40186,
+                                "grade": 9
+                            },
+                            {
+                                "price": 75687,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66424,
+                                "grade": 10
+                            },
+                            {
+                                "price": 51397,
+                                "grade": 9
+                            },
+                            {
+                                "price": 71772,
+                                "grade": 10
+                            },
+                            {
+                                "price": 114987,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66076,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 66309,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28130,
+                                "grade": 9
+                            },
+                            {
+                                "price": 63630,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28131,
+                                "grade": 9
+                            },
+                            {
+                                "price": 27997,
+                                "grade": 9
+                            },
+                            {
+                                "price": 18486,
+                                "grade": 7
+                            },
+                            {
+                                "price": 60042,
+                                "grade": 10
+                            },
+                            {
+                                "price": 60204,
+                                "grade": 10
+                            },
+                            {
+                                "price": 63261,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28064,
+                                "grade": 9
+                            },
+                            {
+                                "price": 60280,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 58265,
+                                "grade": 10
+                            },
+                            {
+                                "price": 56932,
+                                "grade": 10
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 34873,
+                "last_updated": "2023-04-20"
+            },
+            "language": "JP"
         }
     }
 }
