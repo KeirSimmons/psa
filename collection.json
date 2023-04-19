@@ -465,146 +465,186 @@
             "set": "TOPSUN_BLUE",
             "selling": {
                 "sold": null,
-                "price": 151689,
+                "price": 133779,
                 "mid": []
             },
             "sales_data": {
                 "medium": {
-                    "mercari": {
+                    "ebay": {
                         "selling": [
                             {
-                                "price": 49399,
+                                "price": 48225,
+                                "grade": 2
+                            },
+                            {
+                                "price": 54923,
+                                "grade": 4
+                            },
+                            {
+                                "price": 334896,
+                                "grade": 9
+                            },
+                            {
+                                "price": 100469,
+                                "grade": 5
+                            },
+                            {
+                                "price": 72174,
+                                "grade": 5
+                            },
+                            {
+                                "price": 120429,
+                                "grade": 7
+                            },
+                            {
+                                "price": 73112,
+                                "grade": 5
+                            },
+                            {
+                                "price": 112525,
+                                "grade": 7
+                            },
+                            {
+                                "price": 100468,
                                 "grade": 3
                             },
                             {
-                                "price": 160000,
+                                "price": 131266,
+                                "grade": 7
+                            },
+                            {
+                                "price": 937709,
+                                "grade": 9
+                            },
+                            {
+                                "price": 71668,
+                                "grade": 3
+                            },
+                            {
+                                "price": 267916,
                                 "grade": 8
                             },
                             {
-                                "price": 999999,
-                                "grade": 9
+                                "price": 207502,
+                                "grade": 8
+                            },
+                            {
+                                "price": 133825,
+                                "grade": 7
+                            },
+                            {
+                                "price": 133958,
+                                "grade": 8
+                            },
+                            {
+                                "price": 77026,
+                                "grade": 3
+                            },
+                            {
+                                "price": 214334,
+                                "grade": 8
+                            },
+                            {
+                                "price": 200938,
+                                "grade": 8
+                            },
+                            {
+                                "price": 160750,
+                                "grade": 4
+                            },
+                            {
+                                "price": 113865,
+                                "grade": 5
                             }
                         ],
                         "sold": [
                             {
-                                "price": 90000,
+                                "price": 180844,
                                 "grade": 8
                             },
                             {
-                                "price": 44000,
+                                "price": 46885,
+                                "grade": 2
+                            },
+                            {
+                                "price": 87073,
+                                "grade": 7
+                            },
+                            {
+                                "price": 87073,
                                 "grade": 6
                             },
                             {
-                                "price": 80000,
+                                "price": 186872,
+                                "grade": 8
+                            },
+                            {
+                                "price": 64300,
+                                "grade": 5
+                            },
+                            {
+                                "price": 71772,
+                                "grade": 5
+                            },
+                            {
+                                "price": 64300,
+                                "grade": 5
+                            },
+                            {
+                                "price": 64300,
+                                "grade": 5
+                            },
+                            {
+                                "price": 375084,
+                                "grade": 9
+                            },
+                            {
+                                "price": 334896,
+                                "grade": 9
+                            },
+                            {
+                                "price": 147353,
                                 "grade": 8
                             }
                         ]
                     },
-                    "ebay": {
+                    "mercari": {
                         "selling": [
                             {
-                                "price": 135755,
+                                "price": 178900,
+                                "grade": 7
+                            },
+                            {
+                                "price": 384111,
                                 "grade": 8
                             },
                             {
-                                "price": 89112,
-                                "grade": 6
-                            },
-                            {
-                                "price": 55556,
-                                "grade": 2
-                            },
-                            {
-                                "price": 57087,
-                                "grade": 6
-                            },
-                            {
-                                "price": 208854,
-                                "grade": 8
-                            },
-                            {
-                                "price": 201894,
-                                "grade": 8
-                            },
-                            {
-                                "price": 194326,
-                                "grade": 8
-                            },
-                            {
-                                "price": 167084,
-                                "grade": 8
-                            },
-                            {
-                                "price": 79365,
-                                "grade": 5
-                            },
-                            {
-                                "price": 974659,
-                                "grade": 9
-                            },
-                            {
-                                "price": 696184,
-                                "grade": 5
-                            },
-                            {
-                                "price": 2088415,
-                                "grade": 9
-                            },
-                            {
-                                "price": 78116,
+                                "price": 45199,
                                 "grade": 3
                             },
                             {
-                                "price": 97327,
-                                "grade": 6
-                            },
-                            {
-                                "price": 132275,
-                                "grade": 4
-                            },
-                            {
-                                "price": 167084,
-                                "grade": 4
-                            },
-                            {
-                                "price": 208855,
+                                "price": 199900,
                                 "grade": 8
                             },
                             {
-                                "price": 348092,
+                                "price": 169999,
+                                "grade": 8
+                            },
+                            {
+                                "price": 900000,
                                 "grade": 9
                             }
                         ],
                         "sold": [
                             {
-                                "price": 161515,
-                                "grade": 6
-                            },
-                            {
-                                "price": 48733,
-                                "grade": 6
-                            },
-                            {
-                                "price": 62657,
-                                "grade": 5
-                            },
-                            {
-                                "price": 62657,
-                                "grade": 5
-                            },
-                            {
-                                "price": 43303,
-                                "grade": 5
-                            },
-                            {
-                                "price": 275689,
-                                "grade": 9
+                                "price": 160000,
+                                "grade": 8
                             }
                         ]
                     }
                 },
-                "avg_price": 151689,
-                "last_updated": "2022-11-17"
+                "avg_price": 133779,
+                "last_updated": "2023-04-19"
             },
             "language": "JP",
             "bandai": true
