@@ -10139,10 +10139,199 @@
     "2009": {
         "25917050": {
             "pkmn": 6,
+            "contains_pkmn": [],
             "grade": 10,
+            "set": "CHARIZARD_HALF_DECK",
             "1st": true,
             "LV.X": true,
-            "set": "CHARIZARD_HALF_DECK"
+            "selling": {
+                "sold": null,
+                "price": 67395,
+                "mid": []
+            },
+            "sales_data": {
+                "medium": {
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 22772,
+                                "grade": 9
+                            },
+                            {
+                                "price": 33356,
+                                "grade": 9
+                            },
+                            {
+                                "price": 30810,
+                                "grade": 9
+                            },
+                            {
+                                "price": 26122,
+                                "grade": 9
+                            },
+                            {
+                                "price": 12324,
+                                "grade": 7
+                            },
+                            {
+                                "price": 57870,
+                                "grade": 10
+                            },
+                            {
+                                "price": 12920,
+                                "grade": 8
+                            },
+                            {
+                                "price": 56263,
+                                "grade": 10
+                            },
+                            {
+                                "price": 28000,
+                                "grade": 9
+                            },
+                            {
+                                "price": 9243,
+                                "grade": 6
+                            },
+                            {
+                                "price": 53582,
+                                "grade": 10
+                            },
+                            {
+                                "price": 46216,
+                                "grade": 9
+                            },
+                            {
+                                "price": 34829,
+                                "grade": 9
+                            },
+                            {
+                                "price": 37776,
+                                "grade": 9
+                            },
+                            {
+                                "price": 6966,
+                                "grade": 5
+                            },
+                            {
+                                "price": 44041,
+                                "grade": 9
+                            },
+                            {
+                                "price": 40188,
+                                "grade": 9
+                            },
+                            {
+                                "price": 15670,
+                                "grade": 6
+                            },
+                            {
+                                "price": 13395,
+                                "grade": 6
+                            },
+                            {
+                                "price": 18753,
+                                "grade": 7
+                            },
+                            {
+                                "price": 76603,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 53582,
+                                "grade": 10
+                            },
+                            {
+                                "price": 52244,
+                                "grade": 10
+                            },
+                            {
+                                "price": 49565,
+                                "grade": 10
+                            },
+                            {
+                                "price": 30810,
+                                "grade": 9
+                            },
+                            {
+                                "price": 57870,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66979,
+                                "grade": 10
+                            },
+                            {
+                                "price": 50903,
+                                "grade": 10
+                            },
+                            {
+                                "price": 53582,
+                                "grade": 10
+                            },
+                            {
+                                "price": 43535,
+                                "grade": 10
+                            },
+                            {
+                                "price": 66589,
+                                "grade": 10
+                            },
+                            {
+                                "price": 24113,
+                                "grade": 8
+                            },
+                            {
+                                "price": 53582,
+                                "grade": 10
+                            },
+                            {
+                                "price": 88049,
+                                "grade": 10
+                            }
+                        ]
+                    },
+                    "mercari": {
+                        "selling": [
+                            {
+                                "price": 23500,
+                                "grade": 9
+                            },
+                            {
+                                "price": 65000,
+                                "grade": 10
+                            },
+                            {
+                                "price": 70000,
+                                "grade": 10
+                            },
+                            {
+                                "price": 63333,
+                                "grade": 10
+                            },
+                            {
+                                "price": 24999,
+                                "grade": 9
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 15555,
+                                "grade": 9
+                            },
+                            {
+                                "price": 67800,
+                                "grade": 10
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 67395,
+                "last_updated": "2023-04-19"
+            },
+            "language": "JP"
         }
     },
     "2010": {
