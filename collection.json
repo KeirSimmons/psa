@@ -11393,19 +11393,125 @@
         },
         "25917039": {
             "pkmn": 6,
+            "contains_pkmn": [],
             "grade": 10,
             "set": "WILD_BLAZE",
             "1st": true,
             "EX": true,
-            "M": true
+            "M": true,
+            "selling": {
+                "sold": null,
+                "price": 171544,
+                "mid": []
+            },
+            "sales_data": {
+                "medium": {
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 35793,
+                                "grade": 7
+                            },
+                            {
+                                "price": 66978,
+                                "grade": 9
+                            },
+                            {
+                                "price": 132612,
+                                "grade": 10
+                            },
+                            {
+                                "price": 334896,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 109846,
+                                "grade": 10
+                            },
+                            {
+                                "price": 248359,
+                                "grade": 10
+                            },
+                            {
+                                "price": 120561,
+                                "grade": 10
+                            },
+                            {
+                                "price": 120563,
+                                "grade": 10
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 171544,
+                "last_updated": "2023-04-19"
+            },
+            "language": "JP"
         },
         "26836015": {
             "pkmn": 6,
+            "contains_pkmn": [],
             "grade": 10,
             "set": "WILD_BLAZE",
             "1st": true,
             "EX": true,
-            "M": true
+            "M": true,
+            "selling": {
+                "sold": null,
+                "price": 171544,
+                "mid": []
+            },
+            "sales_data": {
+                "medium": {
+                    "mercari": {
+                        "selling": [],
+                        "sold": []
+                    },
+                    "ebay": {
+                        "selling": [
+                            {
+                                "price": 35793,
+                                "grade": 7
+                            },
+                            {
+                                "price": 66978,
+                                "grade": 9
+                            },
+                            {
+                                "price": 132612,
+                                "grade": 10
+                            },
+                            {
+                                "price": 334896,
+                                "grade": 10
+                            }
+                        ],
+                        "sold": [
+                            {
+                                "price": 109846,
+                                "grade": 10
+                            },
+                            {
+                                "price": 248359,
+                                "grade": 10
+                            },
+                            {
+                                "price": 120561,
+                                "grade": 10
+                            },
+                            {
+                                "price": 120563,
+                                "grade": 10
+                            }
+                        ]
+                    }
+                },
+                "avg_price": 171544,
+                "last_updated": "2023-04-19"
+            },
+            "language": "JP"
         }
     },
     "2015": {
